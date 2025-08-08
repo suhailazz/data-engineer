@@ -1,0 +1,1001 @@
+tracking_id,route_type,event_time,pickup_time,delivery_time,on_time,location_id,courier_id,status,delay_reason
+100001,1st_mile,2025-07-08,2025-07-08 06:47:00,2025-07-09 18:47:00,1,LA_Hub,Courier_A,picked_up,
+100002,1st_mile,2025-07-28,2025-07-28 06:01:00,2025-07-28 18:01:00,1,LA_Hub,Courier_C,picked_up,
+100003,1st_mile,2025-08-04,2025-08-04 09:14:00,2025-08-06 19:14:00,0,NYC_Hub,Courier_A,failed,Customer not available
+100004,1st_mile,2025-07-18,2025-07-18 07:13:00,2025-07-20 03:13:00,1,NYC_Hub,Courier_B,picked_up,
+100005,1st_mile,2025-07-23,2025-07-23 10:16:00,2025-07-23 16:16:00,0,SEA_Hub,Courier_A,failed,
+100006,1st_mile,2025-08-05,2025-08-05 08:53:00,2025-08-07 07:53:00,1,NYC_Hub,Courier_A,in_transit,
+100007,1st_mile,2025-07-06,2025-07-06 12:14:00,2025-07-07 01:14:00,0,CHI_Hub,Courier_B,delivered,Weather
+100008,1st_mile,2025-07-24,2025-07-24 08:13:00,2025-07-25 19:13:00,1,SEA_Hub,Courier_C,in_transit,
+100009,1st_mile,2025-07-11,2025-07-11 09:24:00,2025-07-12 20:24:00,1,CHI_Hub,Courier_A,in_transit,
+100010,1st_mile,2025-07-21,2025-07-21 09:17:00,2025-07-21 18:17:00,1,SEA_Hub,Courier_C,delivered,
+100011,1st_mile,2025-08-01,2025-08-01 09:56:00,2025-08-03 20:56:00,1,CHI_Hub,Courier_A,in_transit,
+100012,1st_mile,2025-07-28,2025-07-28 10:25:00,2025-07-30 09:25:00,1,LA_Hub,Courier_C,failed,
+100013,1st_mile,2025-07-04,2025-07-04 12:07:00,2025-07-05 08:07:00,1,DAL_Hub,Courier_C,picked_up,
+100014,1st_mile,2025-07-25,2025-07-25 10:29:00,2025-07-28 06:29:00,0,SEA_Hub,Courier_A,picked_up,Address issue
+100015,1st_mile,2025-07-18,2025-07-18 12:41:00,2025-07-20 08:41:00,1,CHI_Hub,Courier_B,in_transit,
+100016,1st_mile,2025-07-01,2025-07-01 11:56:00,2025-07-02 21:56:00,1,SEA_Hub,Courier_A,delivered,
+100017,1st_mile,2025-07-10,2025-07-10 08:48:00,2025-07-11 05:48:00,1,SEA_Hub,Courier_B,failed,
+100018,1st_mile,2025-07-08,2025-07-08 08:56:00,2025-07-10 00:56:00,1,NYC_Hub,Courier_A,picked_up,
+100019,1st_mile,2025-08-01,2025-08-01 12:04:00,2025-08-04 09:04:00,1,LA_Hub,Courier_C,failed,
+100020,1st_mile,2025-07-17,2025-07-17 10:55:00,2025-07-19 17:55:00,1,SEA_Hub,Courier_C,in_transit,
+100021,1st_mile,2025-07-26,2025-07-26 11:41:00,2025-07-28 11:41:00,0,SEA_Hub,Courier_B,picked_up,Weather
+100022,1st_mile,2025-07-15,2025-07-15 06:21:00,2025-07-15 09:21:00,1,SEA_Hub,Courier_A,picked_up,
+100023,1st_mile,2025-07-04,2025-07-04 07:04:00,2025-07-04 12:04:00,0,NYC_Hub,Courier_C,in_transit,Customer not available
+100024,1st_mile,2025-08-01,2025-08-01 07:34:00,2025-08-02 00:34:00,0,LA_Hub,Courier_B,failed,Weather
+100025,1st_mile,2025-07-07,2025-07-07 06:42:00,2025-07-09 14:42:00,0,DAL_Hub,Courier_B,failed,
+100026,1st_mile,2025-07-07,2025-07-07 06:25:00,2025-07-09 02:25:00,1,LA_Hub,Courier_A,in_transit,
+100027,1st_mile,2025-07-09,2025-07-09 09:11:00,2025-07-10 21:11:00,0,LA_Hub,Courier_A,failed,Address issue
+100028,1st_mile,2025-07-07,2025-07-07 06:41:00,2025-07-10 04:41:00,1,NYC_Hub,Courier_A,in_transit,
+100029,1st_mile,2025-08-01,2025-08-01 09:13:00,2025-08-03 13:13:00,1,LA_Hub,Courier_B,picked_up,
+100030,1st_mile,2025-07-17,2025-07-17 12:50:00,2025-07-19 23:50:00,0,DAL_Hub,Courier_C,failed,Weather
+100031,1st_mile,2025-07-13,2025-07-13 08:13:00,2025-07-13 16:13:00,1,CHI_Hub,Courier_A,picked_up,
+100032,1st_mile,2025-08-02,2025-08-02 12:33:00,2025-08-03 09:33:00,1,SEA_Hub,Courier_A,in_transit,
+100033,1st_mile,2025-07-05,2025-07-05 11:55:00,2025-07-06 18:55:00,0,NYC_Hub,Courier_C,in_transit,Address issue
+100034,1st_mile,2025-07-03,2025-07-03 10:05:00,2025-07-05 16:05:00,0,CHI_Hub,Courier_A,delivered,Weather
+100035,1st_mile,2025-07-17,2025-07-17 09:08:00,2025-07-19 00:08:00,0,CHI_Hub,Courier_A,picked_up,Traffic
+100036,1st_mile,2025-08-06,2025-08-06 06:04:00,2025-08-09 03:04:00,1,SEA_Hub,Courier_B,in_transit,
+100037,1st_mile,2025-07-05,2025-07-05 07:23:00,2025-07-06 20:23:00,1,DAL_Hub,Courier_C,delivered,
+100038,1st_mile,2025-08-05,2025-08-05 08:59:00,2025-08-05 22:59:00,1,CHI_Hub,Courier_A,picked_up,
+100039,1st_mile,2025-07-18,2025-07-18 08:38:00,2025-07-19 11:38:00,0,LA_Hub,Courier_C,delivered,Address issue
+100040,1st_mile,2025-08-01,2025-08-01 08:57:00,2025-08-01 15:57:00,1,DAL_Hub,Courier_B,picked_up,
+100041,1st_mile,2025-07-22,2025-07-22 12:08:00,2025-07-23 22:08:00,1,DAL_Hub,Courier_C,failed,
+100042,1st_mile,2025-07-08,2025-07-08 06:56:00,2025-07-09 02:56:00,1,CHI_Hub,Courier_C,in_transit,
+100043,1st_mile,2025-07-09,2025-07-09 06:19:00,2025-07-11 05:19:00,1,CHI_Hub,Courier_A,in_transit,
+100044,1st_mile,2025-07-23,2025-07-23 12:35:00,2025-07-25 17:35:00,1,LA_Hub,Courier_A,in_transit,
+100045,1st_mile,2025-07-02,2025-07-02 07:47:00,2025-07-04 02:47:00,0,LA_Hub,Courier_B,in_transit,
+100046,1st_mile,2025-07-25,2025-07-25 12:02:00,2025-07-28 01:02:00,1,LA_Hub,Courier_B,delivered,
+100047,1st_mile,2025-07-15,2025-07-15 07:01:00,2025-07-16 08:01:00,0,CHI_Hub,Courier_B,picked_up,Customer not available
+100048,1st_mile,2025-07-23,2025-07-23 11:32:00,2025-07-25 15:32:00,0,NYC_Hub,Courier_A,delivered,Weather
+100049,1st_mile,2025-07-17,2025-07-17 06:06:00,2025-07-19 14:06:00,0,CHI_Hub,Courier_B,picked_up,Traffic
+100050,1st_mile,2025-08-06,2025-08-06 07:16:00,2025-08-06 13:16:00,0,NYC_Hub,Courier_C,in_transit,Customer not available
+100051,1st_mile,2025-07-28,2025-07-28 06:42:00,2025-07-30 01:42:00,0,NYC_Hub,Courier_C,delivered,Address issue
+100052,1st_mile,2025-07-20,2025-07-20 11:26:00,2025-07-22 05:26:00,0,CHI_Hub,Courier_C,in_transit,Weather
+100053,1st_mile,2025-07-27,2025-07-27 11:24:00,2025-07-28 10:24:00,0,DAL_Hub,Courier_C,picked_up,Customer not available
+100054,1st_mile,2025-07-19,2025-07-19 07:27:00,2025-07-21 01:27:00,0,DAL_Hub,Courier_B,in_transit,Address issue
+100055,1st_mile,2025-07-31,2025-07-31 12:57:00,2025-08-01 10:57:00,1,CHI_Hub,Courier_C,delivered,
+100056,1st_mile,2025-07-16,2025-07-16 11:19:00,2025-07-17 16:19:00,1,LA_Hub,Courier_A,picked_up,
+100057,1st_mile,2025-07-31,2025-07-31 10:54:00,2025-07-31 20:54:00,0,DAL_Hub,Courier_C,in_transit,Traffic
+100058,1st_mile,2025-08-01,2025-08-01 09:15:00,2025-08-02 04:15:00,1,NYC_Hub,Courier_B,in_transit,
+100059,1st_mile,2025-08-03,2025-08-03 09:03:00,2025-08-06 09:03:00,1,NYC_Hub,Courier_B,in_transit,
+100060,1st_mile,2025-08-03,2025-08-03 10:38:00,2025-08-05 03:38:00,0,SEA_Hub,Courier_C,failed,Address issue
+100061,1st_mile,2025-07-29,2025-07-29 07:47:00,2025-07-31 20:47:00,0,CHI_Hub,Courier_A,delivered,Address issue
+100062,1st_mile,2025-08-01,2025-08-01 11:15:00,2025-08-02 23:15:00,0,NYC_Hub,Courier_C,delivered,Weather
+100063,1st_mile,2025-07-18,2025-07-18 08:20:00,2025-07-21 06:20:00,1,LA_Hub,Courier_A,in_transit,
+100064,1st_mile,2025-07-10,2025-07-10 11:13:00,2025-07-10 20:13:00,0,DAL_Hub,Courier_B,failed,Traffic
+100065,1st_mile,2025-07-04,2025-07-04 07:53:00,2025-07-06 13:53:00,0,SEA_Hub,Courier_C,picked_up,Address issue
+100066,1st_mile,2025-07-25,2025-07-25 09:00:00,2025-07-27 07:00:00,0,DAL_Hub,Courier_B,in_transit,Traffic
+100067,1st_mile,2025-07-15,2025-07-15 08:27:00,2025-07-17 23:27:00,1,DAL_Hub,Courier_B,failed,
+100068,1st_mile,2025-07-30,2025-07-30 07:39:00,2025-08-02 04:39:00,1,DAL_Hub,Courier_C,picked_up,
+100069,1st_mile,2025-07-28,2025-07-28 07:55:00,2025-07-30 19:55:00,1,NYC_Hub,Courier_B,failed,
+100070,1st_mile,2025-07-14,2025-07-14 09:20:00,2025-07-16 05:20:00,0,CHI_Hub,Courier_B,delivered,
+100071,1st_mile,2025-07-31,2025-07-31 06:47:00,2025-08-03 04:47:00,1,CHI_Hub,Courier_A,picked_up,
+100072,1st_mile,2025-07-02,2025-07-02 07:12:00,2025-07-02 10:12:00,1,LA_Hub,Courier_A,failed,
+100073,1st_mile,2025-08-06,2025-08-06 07:29:00,2025-08-07 16:29:00,0,LA_Hub,Courier_C,picked_up,Weather
+100074,1st_mile,2025-07-20,2025-07-20 06:37:00,2025-07-20 10:37:00,0,SEA_Hub,Courier_C,failed,Traffic
+100075,1st_mile,2025-07-13,2025-07-13 06:37:00,2025-07-14 14:37:00,1,CHI_Hub,Courier_C,picked_up,
+100076,1st_mile,2025-07-23,2025-07-23 10:27:00,2025-07-25 10:27:00,1,SEA_Hub,Courier_C,delivered,
+100077,1st_mile,2025-07-27,2025-07-27 12:31:00,2025-07-28 02:31:00,0,CHI_Hub,Courier_C,failed,Weather
+100078,1st_mile,2025-07-28,2025-07-28 07:46:00,2025-07-31 02:46:00,0,SEA_Hub,Courier_C,failed,Traffic
+100079,1st_mile,2025-07-28,2025-07-28 12:46:00,2025-07-29 23:46:00,0,LA_Hub,Courier_A,delivered,Traffic
+100080,1st_mile,2025-07-16,2025-07-16 12:29:00,2025-07-18 13:29:00,0,NYC_Hub,Courier_B,delivered,Weather
+100081,1st_mile,2025-08-01,2025-08-01 07:22:00,2025-08-02 17:22:00,0,CHI_Hub,Courier_C,delivered,Address issue
+100082,1st_mile,2025-07-01,2025-07-01 10:12:00,2025-07-01 21:12:00,1,DAL_Hub,Courier_B,in_transit,
+100083,1st_mile,2025-08-01,2025-08-01 09:50:00,2025-08-01 12:50:00,1,CHI_Hub,Courier_A,failed,
+100084,1st_mile,2025-07-20,2025-07-20 11:37:00,2025-07-22 11:37:00,0,SEA_Hub,Courier_C,delivered,Traffic
+100085,1st_mile,2025-08-05,2025-08-05 08:22:00,2025-08-07 19:22:00,0,CHI_Hub,Courier_B,in_transit,
+100086,1st_mile,2025-07-13,2025-07-13 08:07:00,2025-07-16 05:07:00,1,LA_Hub,Courier_A,failed,
+100087,1st_mile,2025-08-03,2025-08-03 10:18:00,2025-08-03 23:18:00,1,CHI_Hub,Courier_A,delivered,
+100088,1st_mile,2025-07-20,2025-07-20 06:45:00,2025-07-23 03:45:00,1,CHI_Hub,Courier_A,picked_up,
+100089,1st_mile,2025-07-09,2025-07-09 11:55:00,2025-07-12 02:55:00,1,NYC_Hub,Courier_C,delivered,
+100090,1st_mile,2025-07-31,2025-07-31 09:21:00,2025-08-01 09:21:00,1,CHI_Hub,Courier_B,picked_up,
+100091,1st_mile,2025-07-26,2025-07-26 09:04:00,2025-07-26 16:04:00,1,LA_Hub,Courier_C,delivered,
+100092,1st_mile,2025-07-16,2025-07-16 06:35:00,2025-07-18 12:35:00,1,SEA_Hub,Courier_B,failed,
+100093,1st_mile,2025-07-20,2025-07-20 12:37:00,2025-07-22 19:37:00,0,SEA_Hub,Courier_C,picked_up,Address issue
+100094,1st_mile,2025-07-07,2025-07-07 12:13:00,2025-07-08 16:13:00,0,NYC_Hub,Courier_A,in_transit,Weather
+100095,1st_mile,2025-08-05,2025-08-05 06:10:00,2025-08-05 07:10:00,0,DAL_Hub,Courier_C,failed,Customer not available
+100096,1st_mile,2025-07-03,2025-07-03 07:18:00,2025-07-04 20:18:00,0,NYC_Hub,Courier_C,in_transit,Customer not available
+100097,1st_mile,2025-07-13,2025-07-13 09:07:00,2025-07-16 07:07:00,1,LA_Hub,Courier_B,in_transit,
+100098,1st_mile,2025-07-04,2025-07-04 07:50:00,2025-07-05 23:50:00,0,DAL_Hub,Courier_A,failed,Customer not available
+100099,1st_mile,2025-07-26,2025-07-26 08:32:00,2025-07-29 06:32:00,0,DAL_Hub,Courier_A,picked_up,Traffic
+100100,1st_mile,2025-07-21,2025-07-21 10:16:00,2025-07-21 14:16:00,1,LA_Hub,Courier_C,picked_up,
+100101,1st_mile,2025-08-06,2025-08-06 06:48:00,2025-08-07 05:48:00,0,SEA_Hub,Courier_C,failed,Customer not available
+100102,1st_mile,2025-07-12,2025-07-12 10:27:00,2025-07-15 01:27:00,1,DAL_Hub,Courier_B,failed,
+100103,1st_mile,2025-07-21,2025-07-21 11:06:00,2025-07-22 08:06:00,0,DAL_Hub,Courier_C,failed,Customer not available
+100104,1st_mile,2025-07-26,2025-07-26 12:48:00,2025-07-29 11:48:00,1,DAL_Hub,Courier_A,delivered,
+100105,1st_mile,2025-07-21,2025-07-21 06:49:00,2025-07-23 10:49:00,1,SEA_Hub,Courier_B,failed,
+100106,1st_mile,2025-07-13,2025-07-13 10:23:00,2025-07-16 02:23:00,0,NYC_Hub,Courier_A,delivered,Address issue
+100107,1st_mile,2025-07-09,2025-07-09 08:28:00,2025-07-11 23:28:00,1,NYC_Hub,Courier_C,in_transit,
+100108,1st_mile,2025-07-20,2025-07-20 10:00:00,2025-07-23 09:00:00,0,NYC_Hub,Courier_A,picked_up,Traffic
+100109,1st_mile,2025-07-08,2025-07-08 11:53:00,2025-07-09 07:53:00,0,CHI_Hub,Courier_C,delivered,Traffic
+100110,1st_mile,2025-07-31,2025-07-31 09:15:00,2025-08-02 20:15:00,1,DAL_Hub,Courier_A,in_transit,
+100111,1st_mile,2025-07-18,2025-07-18 12:50:00,2025-07-20 18:50:00,0,SEA_Hub,Courier_B,picked_up,Customer not available
+100112,1st_mile,2025-07-20,2025-07-20 12:37:00,2025-07-23 03:37:00,1,DAL_Hub,Courier_C,failed,
+100113,1st_mile,2025-07-22,2025-07-22 10:48:00,2025-07-25 08:48:00,0,DAL_Hub,Courier_B,in_transit,Weather
+100114,1st_mile,2025-08-06,2025-08-06 09:14:00,2025-08-08 14:14:00,1,CHI_Hub,Courier_C,failed,
+100115,1st_mile,2025-07-25,2025-07-25 11:50:00,2025-07-26 07:50:00,0,NYC_Hub,Courier_A,delivered,
+100116,1st_mile,2025-07-29,2025-07-29 06:33:00,2025-07-31 17:33:00,1,LA_Hub,Courier_B,in_transit,
+100117,1st_mile,2025-07-31,2025-07-31 12:16:00,2025-08-02 08:16:00,0,NYC_Hub,Courier_B,failed,Customer not available
+100118,1st_mile,2025-08-01,2025-08-01 12:34:00,2025-08-01 17:34:00,1,LA_Hub,Courier_C,delivered,
+100119,1st_mile,2025-07-06,2025-07-06 09:06:00,2025-07-06 22:06:00,0,LA_Hub,Courier_C,delivered,
+100120,1st_mile,2025-07-03,2025-07-03 08:50:00,2025-07-03 16:50:00,0,CHI_Hub,Courier_B,failed,Weather
+100121,1st_mile,2025-07-16,2025-07-16 10:26:00,2025-07-17 10:26:00,1,LA_Hub,Courier_A,failed,
+100122,1st_mile,2025-08-01,2025-08-01 10:09:00,2025-08-02 16:09:00,0,CHI_Hub,Courier_B,delivered,
+100123,1st_mile,2025-07-30,2025-07-30 08:43:00,2025-08-02 06:43:00,1,NYC_Hub,Courier_B,delivered,
+100124,1st_mile,2025-07-28,2025-07-28 11:16:00,2025-07-30 22:16:00,0,LA_Hub,Courier_B,failed,
+100125,1st_mile,2025-07-16,2025-07-16 09:36:00,2025-07-18 07:36:00,0,CHI_Hub,Courier_A,failed,Customer not available
+100126,1st_mile,2025-07-01,2025-07-01 10:55:00,2025-07-01 17:55:00,0,CHI_Hub,Courier_A,delivered,Weather
+100127,1st_mile,2025-07-13,2025-07-13 10:16:00,2025-07-14 04:16:00,1,NYC_Hub,Courier_B,failed,
+100128,1st_mile,2025-07-24,2025-07-24 11:08:00,2025-07-24 23:08:00,0,CHI_Hub,Courier_C,failed,Weather
+100129,1st_mile,2025-07-13,2025-07-13 07:50:00,2025-07-16 05:50:00,0,SEA_Hub,Courier_C,delivered,Weather
+100130,1st_mile,2025-07-17,2025-07-17 12:30:00,2025-07-19 02:30:00,0,NYC_Hub,Courier_B,picked_up,Weather
+100131,1st_mile,2025-07-15,2025-07-15 12:43:00,2025-07-17 15:43:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100132,1st_mile,2025-08-04,2025-08-04 06:29:00,2025-08-06 06:29:00,0,SEA_Hub,Courier_B,delivered,
+100133,1st_mile,2025-07-15,2025-07-15 09:01:00,2025-07-18 09:01:00,0,SEA_Hub,Courier_A,picked_up,Traffic
+100134,1st_mile,2025-07-20,2025-07-20 11:26:00,2025-07-21 02:26:00,1,NYC_Hub,Courier_A,delivered,
+100135,1st_mile,2025-07-08,2025-07-08 06:15:00,2025-07-11 03:15:00,1,DAL_Hub,Courier_B,delivered,
+100136,1st_mile,2025-07-10,2025-07-10 09:41:00,2025-07-10 22:41:00,0,SEA_Hub,Courier_B,delivered,
+100137,1st_mile,2025-07-24,2025-07-24 07:28:00,2025-07-26 16:28:00,1,CHI_Hub,Courier_A,delivered,
+100138,1st_mile,2025-07-04,2025-07-04 09:17:00,2025-07-05 10:17:00,1,DAL_Hub,Courier_A,in_transit,
+100139,1st_mile,2025-07-04,2025-07-04 12:21:00,2025-07-05 20:21:00,1,SEA_Hub,Courier_A,picked_up,
+100140,1st_mile,2025-07-14,2025-07-14 12:55:00,2025-07-15 18:55:00,0,LA_Hub,Courier_C,picked_up,Customer not available
+100141,1st_mile,2025-07-10,2025-07-10 07:34:00,2025-07-11 16:34:00,1,NYC_Hub,Courier_C,picked_up,
+100142,1st_mile,2025-07-01,2025-07-01 08:50:00,2025-07-02 15:50:00,0,NYC_Hub,Courier_A,delivered,
+100143,1st_mile,2025-07-09,2025-07-09 11:26:00,2025-07-12 07:26:00,1,NYC_Hub,Courier_B,failed,
+100144,1st_mile,2025-08-02,2025-08-02 10:06:00,2025-08-04 20:06:00,1,SEA_Hub,Courier_A,delivered,
+100145,1st_mile,2025-07-02,2025-07-02 06:30:00,2025-07-04 10:30:00,0,NYC_Hub,Courier_B,failed,
+100146,1st_mile,2025-07-06,2025-07-06 08:38:00,2025-07-07 03:38:00,1,LA_Hub,Courier_B,delivered,
+100147,1st_mile,2025-08-03,2025-08-03 08:29:00,2025-08-06 01:29:00,0,NYC_Hub,Courier_C,picked_up,Address issue
+100148,1st_mile,2025-07-14,2025-07-14 09:28:00,2025-07-15 15:28:00,0,CHI_Hub,Courier_B,failed,Traffic
+100149,1st_mile,2025-07-07,2025-07-07 08:27:00,2025-07-09 01:27:00,0,CHI_Hub,Courier_A,failed,
+100150,1st_mile,2025-07-06,2025-07-06 12:05:00,2025-07-07 00:05:00,0,NYC_Hub,Courier_C,delivered,Weather
+100151,1st_mile,2025-08-05,2025-08-05 06:37:00,2025-08-08 06:37:00,0,NYC_Hub,Courier_B,delivered,Traffic
+100152,1st_mile,2025-07-04,2025-07-04 08:38:00,2025-07-06 00:38:00,0,NYC_Hub,Courier_C,in_transit,Weather
+100153,1st_mile,2025-07-31,2025-07-31 07:54:00,2025-07-31 21:54:00,0,SEA_Hub,Courier_B,picked_up,Customer not available
+100154,1st_mile,2025-08-06,2025-08-06 07:51:00,2025-08-08 14:51:00,1,SEA_Hub,Courier_C,delivered,
+100155,1st_mile,2025-07-12,2025-07-12 08:44:00,2025-07-14 00:44:00,0,CHI_Hub,Courier_A,in_transit,Weather
+100156,1st_mile,2025-08-06,2025-08-06 11:25:00,2025-08-06 20:25:00,1,NYC_Hub,Courier_A,in_transit,
+100157,1st_mile,2025-07-27,2025-07-27 09:21:00,2025-07-28 06:21:00,0,CHI_Hub,Courier_C,delivered,Address issue
+100158,1st_mile,2025-07-06,2025-07-06 06:09:00,2025-07-07 03:09:00,1,NYC_Hub,Courier_B,failed,
+100159,1st_mile,2025-08-01,2025-08-01 10:28:00,2025-08-03 16:28:00,0,LA_Hub,Courier_C,picked_up,Customer not available
+100160,1st_mile,2025-07-28,2025-07-28 06:18:00,2025-07-30 21:18:00,0,NYC_Hub,Courier_A,failed,Address issue
+100161,1st_mile,2025-07-04,2025-07-04 06:13:00,2025-07-05 21:13:00,1,LA_Hub,Courier_B,delivered,
+100162,1st_mile,2025-07-08,2025-07-08 06:31:00,2025-07-10 14:31:00,1,LA_Hub,Courier_B,in_transit,
+100163,1st_mile,2025-07-05,2025-07-05 09:55:00,2025-07-05 15:55:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100164,1st_mile,2025-08-06,2025-08-06 09:36:00,2025-08-08 13:36:00,0,CHI_Hub,Courier_A,failed,
+100165,1st_mile,2025-07-21,2025-07-21 07:51:00,2025-07-23 18:51:00,0,NYC_Hub,Courier_B,picked_up,Weather
+100166,1st_mile,2025-07-28,2025-07-28 10:25:00,2025-07-31 06:25:00,1,DAL_Hub,Courier_B,delivered,
+100167,1st_mile,2025-07-22,2025-07-22 12:10:00,2025-07-22 22:10:00,1,SEA_Hub,Courier_C,in_transit,
+100168,1st_mile,2025-07-23,2025-07-23 11:52:00,2025-07-24 06:52:00,1,NYC_Hub,Courier_A,delivered,
+100169,1st_mile,2025-07-12,2025-07-12 10:09:00,2025-07-12 20:09:00,1,DAL_Hub,Courier_B,failed,
+100170,1st_mile,2025-07-21,2025-07-21 07:28:00,2025-07-21 16:28:00,0,DAL_Hub,Courier_C,delivered,Customer not available
+100171,1st_mile,2025-07-04,2025-07-04 08:32:00,2025-07-04 18:32:00,0,DAL_Hub,Courier_B,picked_up,
+100172,1st_mile,2025-07-24,2025-07-24 12:18:00,2025-07-24 22:18:00,1,SEA_Hub,Courier_C,failed,
+100173,1st_mile,2025-08-05,2025-08-05 12:47:00,2025-08-05 18:47:00,0,SEA_Hub,Courier_C,in_transit,Customer not available
+100174,1st_mile,2025-07-31,2025-07-31 10:09:00,2025-07-31 18:09:00,0,NYC_Hub,Courier_B,picked_up,Address issue
+100175,1st_mile,2025-07-12,2025-07-12 06:15:00,2025-07-14 15:15:00,0,SEA_Hub,Courier_C,in_transit,Customer not available
+100176,1st_mile,2025-07-24,2025-07-24 08:24:00,2025-07-26 13:24:00,0,SEA_Hub,Courier_A,delivered,
+100177,1st_mile,2025-07-22,2025-07-22 06:35:00,2025-07-24 08:35:00,0,CHI_Hub,Courier_C,in_transit,Customer not available
+100178,1st_mile,2025-07-06,2025-07-06 10:42:00,2025-07-07 05:42:00,0,CHI_Hub,Courier_C,failed,Weather
+100179,1st_mile,2025-07-06,2025-07-06 08:35:00,2025-07-08 09:35:00,0,LA_Hub,Courier_C,picked_up,Traffic
+100180,1st_mile,2025-08-02,2025-08-02 08:01:00,2025-08-04 07:01:00,0,LA_Hub,Courier_A,delivered,Traffic
+100181,1st_mile,2025-07-13,2025-07-13 07:08:00,2025-07-14 03:08:00,1,CHI_Hub,Courier_A,picked_up,
+100182,1st_mile,2025-07-09,2025-07-09 10:24:00,2025-07-10 06:24:00,1,LA_Hub,Courier_C,in_transit,
+100183,1st_mile,2025-07-03,2025-07-03 09:23:00,2025-07-04 16:23:00,0,SEA_Hub,Courier_B,failed,Weather
+100184,1st_mile,2025-08-04,2025-08-04 07:19:00,2025-08-06 20:19:00,1,CHI_Hub,Courier_C,failed,
+100185,1st_mile,2025-07-19,2025-07-19 12:24:00,2025-07-22 05:24:00,0,LA_Hub,Courier_A,in_transit,Customer not available
+100186,1st_mile,2025-07-04,2025-07-04 11:30:00,2025-07-06 11:30:00,1,SEA_Hub,Courier_A,delivered,
+100187,1st_mile,2025-07-11,2025-07-11 08:28:00,2025-07-14 02:28:00,1,DAL_Hub,Courier_A,in_transit,
+100188,1st_mile,2025-07-23,2025-07-23 06:26:00,2025-07-23 13:26:00,0,SEA_Hub,Courier_B,in_transit,Traffic
+100189,1st_mile,2025-07-06,2025-07-06 08:14:00,2025-07-06 12:14:00,0,NYC_Hub,Courier_C,delivered,Weather
+100190,1st_mile,2025-07-09,2025-07-09 06:18:00,2025-07-11 19:18:00,1,DAL_Hub,Courier_B,picked_up,
+100191,1st_mile,2025-07-02,2025-07-02 08:13:00,2025-07-03 04:13:00,0,NYC_Hub,Courier_B,in_transit,Customer not available
+100192,1st_mile,2025-07-08,2025-07-08 06:15:00,2025-07-10 12:15:00,0,NYC_Hub,Courier_A,failed,Address issue
+100193,1st_mile,2025-08-04,2025-08-04 06:40:00,2025-08-07 00:40:00,1,LA_Hub,Courier_B,failed,
+100194,1st_mile,2025-07-23,2025-07-23 07:36:00,2025-07-25 13:36:00,1,NYC_Hub,Courier_C,delivered,
+100195,1st_mile,2025-08-03,2025-08-03 10:32:00,2025-08-06 03:32:00,1,DAL_Hub,Courier_B,picked_up,
+100196,1st_mile,2025-07-24,2025-07-24 08:47:00,2025-07-24 11:47:00,0,NYC_Hub,Courier_B,in_transit,
+100197,1st_mile,2025-07-22,2025-07-22 07:02:00,2025-07-24 05:02:00,0,LA_Hub,Courier_C,failed,Traffic
+100198,1st_mile,2025-07-12,2025-07-12 12:08:00,2025-07-12 21:08:00,0,NYC_Hub,Courier_B,in_transit,
+100199,1st_mile,2025-07-13,2025-07-13 06:20:00,2025-07-14 22:20:00,0,SEA_Hub,Courier_B,delivered,
+100200,1st_mile,2025-07-13,2025-07-13 08:22:00,2025-07-13 15:22:00,0,CHI_Hub,Courier_A,delivered,Traffic
+100201,1st_mile,2025-07-26,2025-07-26 11:28:00,2025-07-28 13:28:00,0,LA_Hub,Courier_B,failed,Customer not available
+100202,1st_mile,2025-08-03,2025-08-03 08:51:00,2025-08-03 19:51:00,0,NYC_Hub,Courier_B,in_transit,Address issue
+100203,1st_mile,2025-07-19,2025-07-19 08:06:00,2025-07-19 19:06:00,0,CHI_Hub,Courier_B,failed,Address issue
+100204,1st_mile,2025-07-28,2025-07-28 07:44:00,2025-07-30 16:44:00,0,DAL_Hub,Courier_A,delivered,Address issue
+100205,1st_mile,2025-07-28,2025-07-28 08:40:00,2025-07-28 16:40:00,1,DAL_Hub,Courier_B,in_transit,
+100206,1st_mile,2025-07-10,2025-07-10 12:38:00,2025-07-12 21:38:00,1,LA_Hub,Courier_A,in_transit,
+100207,1st_mile,2025-07-24,2025-07-24 09:36:00,2025-07-24 14:36:00,1,DAL_Hub,Courier_B,delivered,
+100208,1st_mile,2025-07-05,2025-07-05 10:08:00,2025-07-08 06:08:00,0,DAL_Hub,Courier_B,delivered,Weather
+100209,1st_mile,2025-07-08,2025-07-08 06:47:00,2025-07-09 06:47:00,0,SEA_Hub,Courier_B,picked_up,Customer not available
+100210,1st_mile,2025-07-17,2025-07-17 11:28:00,2025-07-18 15:28:00,0,DAL_Hub,Courier_A,picked_up,Weather
+100211,1st_mile,2025-07-05,2025-07-05 09:11:00,2025-07-07 18:11:00,1,CHI_Hub,Courier_C,delivered,
+100212,1st_mile,2025-08-05,2025-08-05 10:18:00,2025-08-07 01:18:00,1,LA_Hub,Courier_B,in_transit,
+100213,1st_mile,2025-07-13,2025-07-13 12:08:00,2025-07-14 19:08:00,0,NYC_Hub,Courier_B,delivered,Traffic
+100214,1st_mile,2025-08-05,2025-08-05 07:39:00,2025-08-05 19:39:00,1,CHI_Hub,Courier_B,failed,
+100215,1st_mile,2025-07-27,2025-07-27 12:36:00,2025-07-27 22:36:00,1,CHI_Hub,Courier_C,picked_up,
+100216,1st_mile,2025-07-30,2025-07-30 11:33:00,2025-08-01 08:33:00,1,SEA_Hub,Courier_C,in_transit,
+100217,1st_mile,2025-07-28,2025-07-28 10:58:00,2025-07-28 18:58:00,1,SEA_Hub,Courier_A,delivered,
+100218,1st_mile,2025-07-11,2025-07-11 08:59:00,2025-07-12 13:59:00,0,SEA_Hub,Courier_B,picked_up,Customer not available
+100219,1st_mile,2025-07-13,2025-07-13 11:35:00,2025-07-14 23:35:00,1,CHI_Hub,Courier_C,picked_up,
+100220,1st_mile,2025-07-10,2025-07-10 07:42:00,2025-07-12 03:42:00,1,NYC_Hub,Courier_A,picked_up,
+100221,1st_mile,2025-07-14,2025-07-14 12:36:00,2025-07-16 18:36:00,1,DAL_Hub,Courier_C,delivered,
+100222,1st_mile,2025-07-31,2025-07-31 07:51:00,2025-08-02 11:51:00,0,DAL_Hub,Courier_A,picked_up,Weather
+100223,1st_mile,2025-07-29,2025-07-29 09:30:00,2025-07-31 21:30:00,1,CHI_Hub,Courier_C,in_transit,
+100224,1st_mile,2025-07-21,2025-07-21 11:55:00,2025-07-23 08:55:00,0,LA_Hub,Courier_B,picked_up,Customer not available
+100225,1st_mile,2025-07-16,2025-07-16 09:07:00,2025-07-17 20:07:00,0,LA_Hub,Courier_A,picked_up,
+100226,1st_mile,2025-07-19,2025-07-19 09:55:00,2025-07-21 15:55:00,1,LA_Hub,Courier_B,delivered,
+100227,1st_mile,2025-07-11,2025-07-11 09:32:00,2025-07-13 21:32:00,0,CHI_Hub,Courier_B,picked_up,
+100228,1st_mile,2025-07-26,2025-07-26 10:29:00,2025-07-27 17:29:00,1,SEA_Hub,Courier_B,picked_up,
+100229,1st_mile,2025-07-19,2025-07-19 09:38:00,2025-07-21 22:38:00,0,SEA_Hub,Courier_A,picked_up,Traffic
+100230,1st_mile,2025-07-09,2025-07-09 08:46:00,2025-07-11 07:46:00,0,CHI_Hub,Courier_A,failed,
+100231,1st_mile,2025-08-06,2025-08-06 10:12:00,2025-08-08 09:12:00,0,NYC_Hub,Courier_B,failed,Address issue
+100232,1st_mile,2025-07-18,2025-07-18 12:39:00,2025-07-19 04:39:00,1,NYC_Hub,Courier_B,delivered,
+100233,1st_mile,2025-08-05,2025-08-05 08:48:00,2025-08-06 03:48:00,1,SEA_Hub,Courier_C,failed,
+100234,1st_mile,2025-07-03,2025-07-03 06:08:00,2025-07-05 01:08:00,0,SEA_Hub,Courier_B,in_transit,Address issue
+100235,1st_mile,2025-08-02,2025-08-02 07:20:00,2025-08-04 00:20:00,1,DAL_Hub,Courier_C,delivered,
+100236,1st_mile,2025-08-02,2025-08-02 12:32:00,2025-08-05 09:32:00,0,SEA_Hub,Courier_B,failed,
+100237,1st_mile,2025-07-24,2025-07-24 08:43:00,2025-07-24 23:43:00,0,SEA_Hub,Courier_B,picked_up,Address issue
+100238,1st_mile,2025-07-31,2025-07-31 08:41:00,2025-08-01 14:41:00,1,SEA_Hub,Courier_B,in_transit,
+100239,1st_mile,2025-07-10,2025-07-10 12:43:00,2025-07-11 20:43:00,1,SEA_Hub,Courier_C,picked_up,
+100240,1st_mile,2025-07-02,2025-07-02 09:20:00,2025-07-04 15:20:00,1,DAL_Hub,Courier_C,in_transit,
+100241,1st_mile,2025-08-02,2025-08-02 12:39:00,2025-08-05 01:39:00,1,LA_Hub,Courier_C,in_transit,
+100242,1st_mile,2025-07-31,2025-07-31 10:24:00,2025-08-02 03:24:00,1,DAL_Hub,Courier_C,delivered,
+100243,1st_mile,2025-07-17,2025-07-17 10:30:00,2025-07-18 11:30:00,1,CHI_Hub,Courier_C,delivered,
+100244,1st_mile,2025-07-20,2025-07-20 12:18:00,2025-07-21 15:18:00,0,CHI_Hub,Courier_B,delivered,Address issue
+100245,1st_mile,2025-07-18,2025-07-18 08:07:00,2025-07-21 06:07:00,0,DAL_Hub,Courier_B,in_transit,Customer not available
+100246,1st_mile,2025-07-03,2025-07-03 08:45:00,2025-07-03 19:45:00,0,DAL_Hub,Courier_C,delivered,Traffic
+100247,1st_mile,2025-07-14,2025-07-14 07:52:00,2025-07-17 04:52:00,0,SEA_Hub,Courier_C,delivered,Weather
+100248,1st_mile,2025-07-07,2025-07-07 10:47:00,2025-07-08 17:47:00,1,NYC_Hub,Courier_C,in_transit,
+100249,1st_mile,2025-07-04,2025-07-04 06:26:00,2025-07-06 01:26:00,0,NYC_Hub,Courier_C,in_transit,
+100250,1st_mile,2025-08-05,2025-08-05 07:26:00,2025-08-07 20:26:00,0,LA_Hub,Courier_B,delivered,Customer not available
+100251,1st_mile,2025-07-04,2025-07-04 12:05:00,2025-07-05 18:05:00,1,LA_Hub,Courier_B,in_transit,
+100252,1st_mile,2025-07-26,2025-07-26 12:31:00,2025-07-27 12:31:00,0,NYC_Hub,Courier_A,delivered,Address issue
+100253,1st_mile,2025-07-07,2025-07-07 08:18:00,2025-07-09 19:18:00,0,LA_Hub,Courier_C,failed,Customer not available
+100254,1st_mile,2025-07-13,2025-07-13 12:07:00,2025-07-15 07:07:00,1,DAL_Hub,Courier_C,delivered,
+100255,1st_mile,2025-07-01,2025-07-01 11:21:00,2025-07-03 01:21:00,1,LA_Hub,Courier_C,failed,
+100256,1st_mile,2025-08-02,2025-08-02 08:05:00,2025-08-04 12:05:00,1,LA_Hub,Courier_A,failed,
+100257,1st_mile,2025-07-16,2025-07-16 06:16:00,2025-07-18 08:16:00,1,DAL_Hub,Courier_B,delivered,
+100258,1st_mile,2025-08-06,2025-08-06 06:16:00,2025-08-08 05:16:00,1,NYC_Hub,Courier_C,picked_up,
+100259,1st_mile,2025-07-20,2025-07-20 07:25:00,2025-07-23 00:25:00,0,NYC_Hub,Courier_C,delivered,Customer not available
+100260,1st_mile,2025-07-15,2025-07-15 07:08:00,2025-07-17 21:08:00,1,DAL_Hub,Courier_C,delivered,
+100261,1st_mile,2025-08-05,2025-08-05 09:48:00,2025-08-08 06:48:00,1,LA_Hub,Courier_C,picked_up,
+100262,1st_mile,2025-08-03,2025-08-03 11:23:00,2025-08-03 21:23:00,1,NYC_Hub,Courier_C,in_transit,
+100263,1st_mile,2025-07-11,2025-07-11 08:54:00,2025-07-14 03:54:00,0,NYC_Hub,Courier_C,in_transit,Address issue
+100264,1st_mile,2025-08-01,2025-08-01 06:57:00,2025-08-04 00:57:00,0,NYC_Hub,Courier_B,in_transit,Address issue
+100265,1st_mile,2025-07-27,2025-07-27 09:36:00,2025-07-27 17:36:00,0,CHI_Hub,Courier_C,picked_up,Traffic
+100266,1st_mile,2025-07-17,2025-07-17 12:00:00,2025-07-18 16:00:00,1,NYC_Hub,Courier_B,delivered,
+100267,1st_mile,2025-08-04,2025-08-04 06:59:00,2025-08-04 15:59:00,0,NYC_Hub,Courier_B,failed,Weather
+100268,1st_mile,2025-07-09,2025-07-09 12:41:00,2025-07-11 18:41:00,0,DAL_Hub,Courier_B,failed,Traffic
+100269,1st_mile,2025-07-06,2025-07-06 11:42:00,2025-07-09 09:42:00,1,CHI_Hub,Courier_A,in_transit,
+100270,1st_mile,2025-08-03,2025-08-03 07:46:00,2025-08-04 12:46:00,1,NYC_Hub,Courier_B,failed,
+100271,1st_mile,2025-08-04,2025-08-04 09:52:00,2025-08-05 15:52:00,1,DAL_Hub,Courier_B,in_transit,
+100272,1st_mile,2025-07-13,2025-07-13 11:48:00,2025-07-14 02:48:00,1,DAL_Hub,Courier_C,picked_up,
+100273,1st_mile,2025-07-14,2025-07-14 06:06:00,2025-07-14 11:06:00,0,SEA_Hub,Courier_C,picked_up,Weather
+100274,1st_mile,2025-07-03,2025-07-03 09:28:00,2025-07-04 15:28:00,1,NYC_Hub,Courier_A,delivered,
+100275,1st_mile,2025-08-06,2025-08-06 08:36:00,2025-08-08 02:36:00,1,CHI_Hub,Courier_A,in_transit,
+100276,1st_mile,2025-07-20,2025-07-20 08:03:00,2025-07-23 08:03:00,1,DAL_Hub,Courier_C,failed,
+100277,1st_mile,2025-07-23,2025-07-23 11:42:00,2025-07-25 12:42:00,0,DAL_Hub,Courier_B,in_transit,Customer not available
+100278,1st_mile,2025-07-25,2025-07-25 07:48:00,2025-07-28 04:48:00,0,LA_Hub,Courier_A,delivered,Weather
+100279,1st_mile,2025-07-30,2025-07-30 06:35:00,2025-08-01 11:35:00,0,SEA_Hub,Courier_C,in_transit,Traffic
+100280,1st_mile,2025-07-16,2025-07-16 08:13:00,2025-07-18 03:13:00,1,DAL_Hub,Courier_B,picked_up,
+100281,1st_mile,2025-07-04,2025-07-04 08:24:00,2025-07-04 14:24:00,1,LA_Hub,Courier_C,in_transit,
+100282,1st_mile,2025-07-14,2025-07-14 12:58:00,2025-07-16 07:58:00,0,NYC_Hub,Courier_A,in_transit,
+100283,1st_mile,2025-07-31,2025-07-31 07:44:00,2025-08-01 10:44:00,0,LA_Hub,Courier_C,delivered,Customer not available
+100284,1st_mile,2025-07-25,2025-07-25 09:34:00,2025-07-27 07:34:00,0,CHI_Hub,Courier_B,failed,Traffic
+100285,1st_mile,2025-07-07,2025-07-07 12:46:00,2025-07-10 01:46:00,0,LA_Hub,Courier_B,delivered,Traffic
+100286,1st_mile,2025-07-03,2025-07-03 10:55:00,2025-07-04 15:55:00,1,NYC_Hub,Courier_B,failed,
+100287,1st_mile,2025-07-10,2025-07-10 07:21:00,2025-07-11 13:21:00,0,SEA_Hub,Courier_A,failed,Address issue
+100288,1st_mile,2025-07-22,2025-07-22 08:48:00,2025-07-24 23:48:00,0,DAL_Hub,Courier_A,delivered,Weather
+100289,1st_mile,2025-07-09,2025-07-09 11:34:00,2025-07-12 02:34:00,1,SEA_Hub,Courier_C,picked_up,
+100290,1st_mile,2025-07-05,2025-07-05 12:42:00,2025-07-05 19:42:00,1,DAL_Hub,Courier_A,in_transit,
+100291,1st_mile,2025-07-10,2025-07-10 06:13:00,2025-07-12 23:13:00,0,CHI_Hub,Courier_A,failed,Traffic
+100292,1st_mile,2025-07-02,2025-07-02 06:34:00,2025-07-05 05:34:00,0,NYC_Hub,Courier_A,delivered,Address issue
+100293,1st_mile,2025-07-19,2025-07-19 06:32:00,2025-07-21 14:32:00,1,NYC_Hub,Courier_A,in_transit,
+100294,1st_mile,2025-07-13,2025-07-13 10:33:00,2025-07-14 19:33:00,0,CHI_Hub,Courier_B,picked_up,Customer not available
+100295,1st_mile,2025-07-26,2025-07-26 09:36:00,2025-07-27 17:36:00,1,CHI_Hub,Courier_C,picked_up,
+100296,1st_mile,2025-07-06,2025-07-06 09:24:00,2025-07-08 10:24:00,0,NYC_Hub,Courier_C,picked_up,Weather
+100297,1st_mile,2025-07-06,2025-07-06 09:54:00,2025-07-08 17:54:00,0,SEA_Hub,Courier_A,picked_up,Weather
+100298,1st_mile,2025-07-14,2025-07-14 12:44:00,2025-07-17 01:44:00,0,NYC_Hub,Courier_A,delivered,Address issue
+100299,1st_mile,2025-08-06,2025-08-06 11:02:00,2025-08-07 10:02:00,0,NYC_Hub,Courier_A,in_transit,Traffic
+100300,1st_mile,2025-07-05,2025-07-05 08:10:00,2025-07-06 15:10:00,0,SEA_Hub,Courier_B,failed,Weather
+100301,1st_mile,2025-07-06,2025-07-06 10:47:00,2025-07-08 07:47:00,1,NYC_Hub,Courier_B,in_transit,
+100302,1st_mile,2025-07-22,2025-07-22 10:49:00,2025-07-24 13:49:00,0,NYC_Hub,Courier_C,delivered,Traffic
+100303,1st_mile,2025-08-01,2025-08-01 07:22:00,2025-08-04 06:22:00,0,DAL_Hub,Courier_A,failed,
+100304,1st_mile,2025-07-19,2025-07-19 12:15:00,2025-07-19 22:15:00,1,CHI_Hub,Courier_A,failed,
+100305,1st_mile,2025-07-25,2025-07-25 08:23:00,2025-07-25 22:23:00,1,NYC_Hub,Courier_B,failed,
+100306,1st_mile,2025-07-18,2025-07-18 06:08:00,2025-07-18 18:08:00,1,DAL_Hub,Courier_B,failed,
+100307,1st_mile,2025-07-02,2025-07-02 06:22:00,2025-07-05 05:22:00,1,SEA_Hub,Courier_C,delivered,
+100308,1st_mile,2025-07-01,2025-07-01 08:26:00,2025-07-03 10:26:00,1,SEA_Hub,Courier_A,in_transit,
+100309,1st_mile,2025-07-11,2025-07-11 07:17:00,2025-07-12 22:17:00,0,DAL_Hub,Courier_A,picked_up,Weather
+100310,1st_mile,2025-07-28,2025-07-28 08:26:00,2025-07-29 23:26:00,0,NYC_Hub,Courier_B,delivered,Weather
+100311,1st_mile,2025-08-01,2025-08-01 10:39:00,2025-08-02 12:39:00,0,NYC_Hub,Courier_A,delivered,
+100312,1st_mile,2025-07-26,2025-07-26 08:53:00,2025-07-28 09:53:00,0,DAL_Hub,Courier_B,failed,Address issue
+100313,1st_mile,2025-07-09,2025-07-09 08:20:00,2025-07-10 10:20:00,0,CHI_Hub,Courier_A,failed,Customer not available
+100314,1st_mile,2025-07-19,2025-07-19 11:44:00,2025-07-22 02:44:00,1,CHI_Hub,Courier_B,delivered,
+100315,1st_mile,2025-07-24,2025-07-24 06:59:00,2025-07-25 08:59:00,1,SEA_Hub,Courier_A,failed,
+100316,1st_mile,2025-07-29,2025-07-29 12:18:00,2025-07-29 21:18:00,0,DAL_Hub,Courier_A,delivered,Weather
+100317,1st_mile,2025-07-17,2025-07-17 11:09:00,2025-07-19 18:09:00,0,NYC_Hub,Courier_B,failed,Address issue
+100318,1st_mile,2025-07-26,2025-07-26 10:32:00,2025-07-28 16:32:00,1,CHI_Hub,Courier_C,picked_up,
+100319,1st_mile,2025-07-16,2025-07-16 11:42:00,2025-07-18 09:42:00,1,SEA_Hub,Courier_A,failed,
+100320,1st_mile,2025-07-28,2025-07-28 06:00:00,2025-07-28 19:00:00,0,LA_Hub,Courier_C,in_transit,Traffic
+100321,1st_mile,2025-07-24,2025-07-24 09:29:00,2025-07-27 02:29:00,1,CHI_Hub,Courier_A,failed,
+100322,1st_mile,2025-07-19,2025-07-19 09:58:00,2025-07-19 20:58:00,1,LA_Hub,Courier_B,delivered,
+100323,1st_mile,2025-07-30,2025-07-30 12:13:00,2025-08-02 07:13:00,0,CHI_Hub,Courier_B,picked_up,Traffic
+100324,1st_mile,2025-07-29,2025-07-29 08:04:00,2025-07-30 23:04:00,1,NYC_Hub,Courier_A,delivered,
+100325,1st_mile,2025-07-11,2025-07-11 11:15:00,2025-07-14 06:15:00,1,SEA_Hub,Courier_A,delivered,
+100326,1st_mile,2025-07-30,2025-07-30 07:51:00,2025-08-01 11:51:00,1,LA_Hub,Courier_C,failed,
+100327,1st_mile,2025-07-02,2025-07-02 11:39:00,2025-07-03 13:39:00,0,SEA_Hub,Courier_B,failed,
+100328,1st_mile,2025-07-14,2025-07-14 07:17:00,2025-07-14 16:17:00,1,SEA_Hub,Courier_A,delivered,
+100329,1st_mile,2025-07-13,2025-07-13 09:07:00,2025-07-14 19:07:00,0,SEA_Hub,Courier_C,delivered,Address issue
+100330,1st_mile,2025-07-25,2025-07-25 10:25:00,2025-07-26 01:25:00,0,CHI_Hub,Courier_B,in_transit,Customer not available
+100331,1st_mile,2025-07-06,2025-07-06 11:08:00,2025-07-08 04:08:00,1,LA_Hub,Courier_B,picked_up,
+100332,1st_mile,2025-07-24,2025-07-24 11:09:00,2025-07-27 05:09:00,0,DAL_Hub,Courier_C,in_transit,Address issue
+100333,1st_mile,2025-07-25,2025-07-25 09:11:00,2025-07-28 00:11:00,1,SEA_Hub,Courier_A,failed,
+100334,1st_mile,2025-07-09,2025-07-09 07:20:00,2025-07-11 17:20:00,1,CHI_Hub,Courier_A,failed,
+100335,1st_mile,2025-07-13,2025-07-13 12:24:00,2025-07-16 12:24:00,0,DAL_Hub,Courier_C,failed,Traffic
+100336,1st_mile,2025-07-29,2025-07-29 09:10:00,2025-07-29 20:10:00,1,LA_Hub,Courier_B,picked_up,
+100337,1st_mile,2025-07-15,2025-07-15 10:18:00,2025-07-16 08:18:00,0,SEA_Hub,Courier_C,failed,Address issue
+100338,1st_mile,2025-08-02,2025-08-02 06:36:00,2025-08-02 21:36:00,0,SEA_Hub,Courier_B,picked_up,Traffic
+100339,1st_mile,2025-08-04,2025-08-04 07:27:00,2025-08-04 21:27:00,1,CHI_Hub,Courier_A,failed,
+100340,1st_mile,2025-07-23,2025-07-23 12:52:00,2025-07-24 00:52:00,0,NYC_Hub,Courier_A,in_transit,Address issue
+100341,1st_mile,2025-07-23,2025-07-23 12:45:00,2025-07-25 19:45:00,1,SEA_Hub,Courier_A,in_transit,
+100342,1st_mile,2025-07-04,2025-07-04 10:22:00,2025-07-07 07:22:00,0,SEA_Hub,Courier_C,in_transit,Customer not available
+100343,1st_mile,2025-07-19,2025-07-19 08:36:00,2025-07-20 19:36:00,1,LA_Hub,Courier_B,picked_up,
+100344,1st_mile,2025-07-09,2025-07-09 11:55:00,2025-07-10 04:55:00,1,LA_Hub,Courier_C,delivered,
+100345,1st_mile,2025-07-26,2025-07-26 09:09:00,2025-07-27 20:09:00,0,DAL_Hub,Courier_B,picked_up,
+100346,1st_mile,2025-07-26,2025-07-26 10:47:00,2025-07-27 22:47:00,0,DAL_Hub,Courier_B,delivered,Address issue
+100347,1st_mile,2025-07-01,2025-07-01 12:49:00,2025-07-02 00:49:00,0,CHI_Hub,Courier_A,failed,Weather
+100348,1st_mile,2025-07-28,2025-07-28 12:13:00,2025-07-31 04:13:00,0,CHI_Hub,Courier_B,delivered,Address issue
+100349,1st_mile,2025-08-06,2025-08-06 07:36:00,2025-08-08 22:36:00,0,NYC_Hub,Courier_A,picked_up,Traffic
+100350,1st_mile,2025-07-02,2025-07-02 06:59:00,2025-07-03 03:59:00,0,DAL_Hub,Courier_A,failed,Weather
+100351,1st_mile,2025-07-09,2025-07-09 11:19:00,2025-07-10 08:19:00,0,NYC_Hub,Courier_C,delivered,Customer not available
+100352,1st_mile,2025-07-06,2025-07-06 08:42:00,2025-07-07 06:42:00,1,DAL_Hub,Courier_C,delivered,
+100353,1st_mile,2025-07-28,2025-07-28 11:05:00,2025-07-29 00:05:00,1,LA_Hub,Courier_B,picked_up,
+100354,1st_mile,2025-07-15,2025-07-15 10:43:00,2025-07-17 19:43:00,1,NYC_Hub,Courier_C,delivered,
+100355,1st_mile,2025-07-28,2025-07-28 11:08:00,2025-07-31 01:08:00,1,LA_Hub,Courier_B,picked_up,
+100356,1st_mile,2025-07-07,2025-07-07 08:23:00,2025-07-08 23:23:00,1,DAL_Hub,Courier_A,in_transit,
+100357,1st_mile,2025-08-03,2025-08-03 10:00:00,2025-08-04 08:00:00,0,CHI_Hub,Courier_C,in_transit,Weather
+100358,1st_mile,2025-07-27,2025-07-27 10:43:00,2025-07-29 19:43:00,1,NYC_Hub,Courier_A,in_transit,
+100359,1st_mile,2025-07-25,2025-07-25 08:27:00,2025-07-27 01:27:00,1,LA_Hub,Courier_B,picked_up,
+100360,1st_mile,2025-08-05,2025-08-05 10:38:00,2025-08-06 23:38:00,1,CHI_Hub,Courier_A,in_transit,
+100361,1st_mile,2025-07-19,2025-07-19 11:03:00,2025-07-20 18:03:00,0,DAL_Hub,Courier_A,in_transit,Traffic
+100362,1st_mile,2025-07-05,2025-07-05 10:56:00,2025-07-05 12:56:00,0,CHI_Hub,Courier_A,failed,Address issue
+100363,1st_mile,2025-07-27,2025-07-27 08:34:00,2025-07-28 07:34:00,0,NYC_Hub,Courier_A,picked_up,
+100364,1st_mile,2025-07-17,2025-07-17 07:02:00,2025-07-17 15:02:00,0,SEA_Hub,Courier_B,failed,Traffic
+100365,1st_mile,2025-07-26,2025-07-26 06:40:00,2025-07-29 03:40:00,1,CHI_Hub,Courier_A,delivered,
+100366,1st_mile,2025-08-02,2025-08-02 07:51:00,2025-08-03 03:51:00,0,DAL_Hub,Courier_C,picked_up,Customer not available
+100367,1st_mile,2025-07-28,2025-07-28 11:54:00,2025-07-29 18:54:00,1,LA_Hub,Courier_A,failed,
+100368,1st_mile,2025-07-30,2025-07-30 10:38:00,2025-07-30 18:38:00,0,LA_Hub,Courier_A,picked_up,Weather
+100369,1st_mile,2025-07-01,2025-07-01 07:31:00,2025-07-03 04:31:00,0,LA_Hub,Courier_B,in_transit,Customer not available
+100370,1st_mile,2025-07-08,2025-07-08 12:57:00,2025-07-08 16:57:00,0,DAL_Hub,Courier_B,picked_up,Customer not available
+100371,1st_mile,2025-08-06,2025-08-06 11:04:00,2025-08-09 03:04:00,0,SEA_Hub,Courier_B,picked_up,Traffic
+100372,1st_mile,2025-08-06,2025-08-06 07:23:00,2025-08-07 04:23:00,0,NYC_Hub,Courier_C,picked_up,Weather
+100373,1st_mile,2025-08-02,2025-08-02 06:02:00,2025-08-02 08:02:00,1,NYC_Hub,Courier_B,delivered,
+100374,1st_mile,2025-07-10,2025-07-10 07:59:00,2025-07-10 12:59:00,0,LA_Hub,Courier_B,in_transit,Traffic
+100375,1st_mile,2025-07-21,2025-07-21 08:52:00,2025-07-21 18:52:00,0,NYC_Hub,Courier_C,picked_up,Weather
+100376,1st_mile,2025-07-15,2025-07-15 12:33:00,2025-07-15 18:33:00,0,NYC_Hub,Courier_B,delivered,Customer not available
+100377,1st_mile,2025-07-21,2025-07-21 06:35:00,2025-07-23 17:35:00,1,CHI_Hub,Courier_A,delivered,
+100378,1st_mile,2025-07-16,2025-07-16 09:23:00,2025-07-19 01:23:00,1,SEA_Hub,Courier_A,in_transit,
+100379,1st_mile,2025-07-27,2025-07-27 06:14:00,2025-07-30 04:14:00,0,NYC_Hub,Courier_B,picked_up,Traffic
+100380,1st_mile,2025-07-20,2025-07-20 06:13:00,2025-07-23 02:13:00,1,DAL_Hub,Courier_B,picked_up,
+100381,1st_mile,2025-07-18,2025-07-18 06:02:00,2025-07-19 12:02:00,0,CHI_Hub,Courier_B,picked_up,Address issue
+100382,1st_mile,2025-07-07,2025-07-07 10:08:00,2025-07-09 13:08:00,1,SEA_Hub,Courier_C,picked_up,
+100383,1st_mile,2025-07-09,2025-07-09 07:18:00,2025-07-10 17:18:00,0,DAL_Hub,Courier_C,delivered,Customer not available
+100384,1st_mile,2025-07-29,2025-07-29 08:14:00,2025-07-29 18:14:00,1,LA_Hub,Courier_C,picked_up,
+100385,1st_mile,2025-07-07,2025-07-07 07:28:00,2025-07-09 19:28:00,0,DAL_Hub,Courier_A,delivered,Weather
+100386,1st_mile,2025-07-29,2025-07-29 08:29:00,2025-07-30 18:29:00,1,NYC_Hub,Courier_A,delivered,
+100387,1st_mile,2025-07-14,2025-07-14 12:54:00,2025-07-16 06:54:00,1,NYC_Hub,Courier_C,in_transit,
+100388,1st_mile,2025-07-26,2025-07-26 10:03:00,2025-07-28 01:03:00,0,LA_Hub,Courier_A,failed,Traffic
+100389,1st_mile,2025-08-05,2025-08-05 11:35:00,2025-08-06 19:35:00,1,DAL_Hub,Courier_A,in_transit,
+100390,1st_mile,2025-07-01,2025-07-01 06:53:00,2025-07-02 11:53:00,1,LA_Hub,Courier_B,delivered,
+100391,1st_mile,2025-07-17,2025-07-17 12:04:00,2025-07-17 15:04:00,1,LA_Hub,Courier_C,failed,
+100392,1st_mile,2025-07-06,2025-07-06 12:53:00,2025-07-08 07:53:00,1,NYC_Hub,Courier_B,picked_up,
+100393,1st_mile,2025-08-06,2025-08-06 09:52:00,2025-08-08 12:52:00,0,NYC_Hub,Courier_B,failed,Weather
+100394,1st_mile,2025-07-23,2025-07-23 07:58:00,2025-07-24 07:58:00,0,CHI_Hub,Courier_B,in_transit,
+100395,1st_mile,2025-07-16,2025-07-16 11:18:00,2025-07-19 03:18:00,0,SEA_Hub,Courier_B,picked_up,
+100396,1st_mile,2025-07-18,2025-07-18 09:08:00,2025-07-20 15:08:00,1,SEA_Hub,Courier_A,picked_up,
+100397,1st_mile,2025-07-23,2025-07-23 09:34:00,2025-07-26 00:34:00,0,SEA_Hub,Courier_C,delivered,Traffic
+100398,1st_mile,2025-07-18,2025-07-18 07:01:00,2025-07-20 00:01:00,1,NYC_Hub,Courier_B,picked_up,
+100399,1st_mile,2025-08-03,2025-08-03 08:49:00,2025-08-04 14:49:00,1,NYC_Hub,Courier_A,in_transit,
+100400,1st_mile,2025-08-04,2025-08-04 12:50:00,2025-08-04 20:50:00,1,SEA_Hub,Courier_B,delivered,
+100401,1st_mile,2025-07-12,2025-07-12 07:37:00,2025-07-14 00:37:00,0,SEA_Hub,Courier_A,delivered,Address issue
+100402,1st_mile,2025-08-06,2025-08-06 07:36:00,2025-08-07 08:36:00,0,SEA_Hub,Courier_B,in_transit,Traffic
+100403,1st_mile,2025-07-03,2025-07-03 06:03:00,2025-07-04 12:03:00,1,NYC_Hub,Courier_C,failed,
+100404,1st_mile,2025-07-22,2025-07-22 10:12:00,2025-07-23 03:12:00,0,LA_Hub,Courier_B,picked_up,
+100405,1st_mile,2025-07-10,2025-07-10 10:45:00,2025-07-11 05:45:00,1,SEA_Hub,Courier_B,picked_up,
+100406,1st_mile,2025-07-26,2025-07-26 10:06:00,2025-07-28 06:06:00,0,CHI_Hub,Courier_A,in_transit,Traffic
+100407,1st_mile,2025-08-01,2025-08-01 11:20:00,2025-08-02 10:20:00,0,LA_Hub,Courier_C,in_transit,Traffic
+100408,1st_mile,2025-07-20,2025-07-20 11:44:00,2025-07-22 01:44:00,1,LA_Hub,Courier_C,picked_up,
+100409,1st_mile,2025-08-06,2025-08-06 06:11:00,2025-08-07 23:11:00,1,SEA_Hub,Courier_A,failed,
+100410,1st_mile,2025-07-22,2025-07-22 11:04:00,2025-07-23 18:04:00,0,CHI_Hub,Courier_A,picked_up,Customer not available
+100411,1st_mile,2025-07-29,2025-07-29 06:16:00,2025-07-30 09:16:00,1,NYC_Hub,Courier_B,delivered,
+100412,1st_mile,2025-07-01,2025-07-01 06:24:00,2025-07-03 15:24:00,0,LA_Hub,Courier_B,failed,Traffic
+100413,1st_mile,2025-07-23,2025-07-23 10:24:00,2025-07-23 23:24:00,0,SEA_Hub,Courier_C,in_transit,Weather
+100414,1st_mile,2025-07-29,2025-07-29 06:51:00,2025-07-29 11:51:00,0,NYC_Hub,Courier_B,delivered,
+100415,1st_mile,2025-07-05,2025-07-05 08:10:00,2025-07-07 09:10:00,1,NYC_Hub,Courier_C,picked_up,
+100416,1st_mile,2025-07-31,2025-07-31 11:01:00,2025-08-02 19:01:00,1,SEA_Hub,Courier_B,in_transit,
+100417,1st_mile,2025-07-07,2025-07-07 08:13:00,2025-07-08 09:13:00,0,SEA_Hub,Courier_C,delivered,Customer not available
+100418,1st_mile,2025-07-20,2025-07-20 07:06:00,2025-07-20 14:06:00,0,SEA_Hub,Courier_C,failed,Weather
+100419,1st_mile,2025-07-04,2025-07-04 08:00:00,2025-07-06 15:00:00,1,CHI_Hub,Courier_C,failed,
+100420,1st_mile,2025-07-07,2025-07-07 06:13:00,2025-07-08 04:13:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100421,1st_mile,2025-07-26,2025-07-26 09:31:00,2025-07-27 19:31:00,1,SEA_Hub,Courier_B,in_transit,
+100422,1st_mile,2025-07-25,2025-07-25 08:11:00,2025-07-27 18:11:00,1,CHI_Hub,Courier_B,failed,
+100423,1st_mile,2025-07-15,2025-07-15 12:17:00,2025-07-15 20:17:00,1,NYC_Hub,Courier_A,delivered,
+100424,1st_mile,2025-07-15,2025-07-15 10:03:00,2025-07-17 12:03:00,0,SEA_Hub,Courier_C,failed,Address issue
+100425,1st_mile,2025-07-16,2025-07-16 09:19:00,2025-07-16 20:19:00,0,NYC_Hub,Courier_C,in_transit,
+100426,1st_mile,2025-07-29,2025-07-29 07:10:00,2025-07-30 11:10:00,1,LA_Hub,Courier_A,failed,
+100427,1st_mile,2025-07-28,2025-07-28 07:52:00,2025-07-29 02:52:00,0,CHI_Hub,Courier_C,picked_up,
+100428,1st_mile,2025-07-25,2025-07-25 10:25:00,2025-07-28 09:25:00,0,CHI_Hub,Courier_C,failed,
+100429,1st_mile,2025-08-03,2025-08-03 12:26:00,2025-08-04 03:26:00,0,LA_Hub,Courier_A,picked_up,
+100430,1st_mile,2025-08-06,2025-08-06 12:06:00,2025-08-08 01:06:00,0,DAL_Hub,Courier_B,failed,Traffic
+100431,1st_mile,2025-08-06,2025-08-06 10:30:00,2025-08-06 15:30:00,1,CHI_Hub,Courier_B,in_transit,
+100432,1st_mile,2025-07-03,2025-07-03 09:56:00,2025-07-05 04:56:00,1,NYC_Hub,Courier_C,failed,
+100433,1st_mile,2025-07-24,2025-07-24 06:21:00,2025-07-25 21:21:00,0,CHI_Hub,Courier_B,picked_up,Weather
+100434,1st_mile,2025-07-09,2025-07-09 08:47:00,2025-07-11 17:47:00,0,CHI_Hub,Courier_C,failed,Address issue
+100435,1st_mile,2025-07-06,2025-07-06 07:28:00,2025-07-07 11:28:00,0,DAL_Hub,Courier_C,delivered,
+100436,1st_mile,2025-08-02,2025-08-02 12:10:00,2025-08-02 21:10:00,0,SEA_Hub,Courier_B,in_transit,Address issue
+100437,1st_mile,2025-08-06,2025-08-06 06:11:00,2025-08-07 07:11:00,1,NYC_Hub,Courier_A,picked_up,
+100438,1st_mile,2025-07-04,2025-07-04 08:45:00,2025-07-05 10:45:00,0,CHI_Hub,Courier_B,failed,
+100439,1st_mile,2025-07-02,2025-07-02 07:23:00,2025-07-04 22:23:00,0,LA_Hub,Courier_B,delivered,Customer not available
+100440,1st_mile,2025-07-11,2025-07-11 12:57:00,2025-07-12 22:57:00,1,CHI_Hub,Courier_A,failed,
+100441,1st_mile,2025-07-11,2025-07-11 12:36:00,2025-07-12 16:36:00,1,LA_Hub,Courier_C,in_transit,
+100442,1st_mile,2025-07-27,2025-07-27 10:01:00,2025-07-27 12:01:00,0,LA_Hub,Courier_C,in_transit,Address issue
+100443,1st_mile,2025-07-01,2025-07-01 07:16:00,2025-07-02 23:16:00,0,DAL_Hub,Courier_B,delivered,Traffic
+100444,1st_mile,2025-07-17,2025-07-17 07:29:00,2025-07-18 22:29:00,0,SEA_Hub,Courier_A,picked_up,Address issue
+100445,1st_mile,2025-07-24,2025-07-24 10:41:00,2025-07-25 23:41:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100446,1st_mile,2025-07-18,2025-07-18 11:20:00,2025-07-19 23:20:00,0,CHI_Hub,Courier_A,in_transit,Address issue
+100447,1st_mile,2025-07-16,2025-07-16 06:51:00,2025-07-18 10:51:00,0,LA_Hub,Courier_C,picked_up,Traffic
+100448,1st_mile,2025-07-19,2025-07-19 08:58:00,2025-07-21 14:58:00,0,DAL_Hub,Courier_C,picked_up,Address issue
+100449,1st_mile,2025-08-06,2025-08-06 12:12:00,2025-08-08 08:12:00,1,SEA_Hub,Courier_C,failed,
+100450,1st_mile,2025-08-02,2025-08-02 08:54:00,2025-08-03 06:54:00,1,CHI_Hub,Courier_A,failed,
+100451,1st_mile,2025-07-17,2025-07-17 11:51:00,2025-07-20 11:51:00,1,CHI_Hub,Courier_C,picked_up,
+100452,1st_mile,2025-07-23,2025-07-23 07:47:00,2025-07-24 23:47:00,0,CHI_Hub,Courier_B,delivered,Address issue
+100453,1st_mile,2025-07-19,2025-07-19 09:54:00,2025-07-20 01:54:00,0,NYC_Hub,Courier_C,picked_up,Traffic
+100454,1st_mile,2025-07-13,2025-07-13 10:07:00,2025-07-15 11:07:00,0,DAL_Hub,Courier_A,in_transit,Weather
+100455,1st_mile,2025-07-13,2025-07-13 08:26:00,2025-07-15 19:26:00,1,CHI_Hub,Courier_C,in_transit,
+100456,1st_mile,2025-08-01,2025-08-01 08:40:00,2025-08-02 07:40:00,0,NYC_Hub,Courier_A,failed,Customer not available
+100457,1st_mile,2025-07-14,2025-07-14 12:49:00,2025-07-15 10:49:00,1,DAL_Hub,Courier_A,in_transit,
+100458,1st_mile,2025-07-28,2025-07-28 09:27:00,2025-07-30 23:27:00,0,NYC_Hub,Courier_A,in_transit,Customer not available
+100459,1st_mile,2025-07-01,2025-07-01 08:48:00,2025-07-04 04:48:00,1,NYC_Hub,Courier_C,picked_up,
+100460,1st_mile,2025-07-15,2025-07-15 11:56:00,2025-07-17 08:56:00,0,LA_Hub,Courier_A,failed,Address issue
+100461,1st_mile,2025-07-20,2025-07-20 07:04:00,2025-07-20 13:04:00,0,CHI_Hub,Courier_B,delivered,Traffic
+100462,1st_mile,2025-07-09,2025-07-09 08:57:00,2025-07-11 23:57:00,0,LA_Hub,Courier_A,failed,
+100463,1st_mile,2025-07-15,2025-07-15 07:46:00,2025-07-16 00:46:00,1,NYC_Hub,Courier_C,in_transit,
+100464,1st_mile,2025-07-24,2025-07-24 11:41:00,2025-07-24 16:41:00,0,CHI_Hub,Courier_C,picked_up,Address issue
+100465,1st_mile,2025-07-04,2025-07-04 11:06:00,2025-07-04 14:06:00,1,NYC_Hub,Courier_B,failed,
+100466,1st_mile,2025-07-08,2025-07-08 10:16:00,2025-07-10 23:16:00,1,LA_Hub,Courier_C,picked_up,
+100467,1st_mile,2025-07-27,2025-07-27 11:06:00,2025-07-30 06:06:00,0,SEA_Hub,Courier_C,in_transit,Traffic
+100468,1st_mile,2025-07-07,2025-07-07 10:46:00,2025-07-08 02:46:00,0,NYC_Hub,Courier_A,failed,Weather
+100469,1st_mile,2025-07-13,2025-07-13 12:16:00,2025-07-16 07:16:00,1,CHI_Hub,Courier_C,failed,
+100470,1st_mile,2025-07-11,2025-07-11 06:35:00,2025-07-13 22:35:00,1,DAL_Hub,Courier_B,in_transit,
+100471,1st_mile,2025-07-01,2025-07-01 11:05:00,2025-07-02 02:05:00,0,LA_Hub,Courier_A,picked_up,
+100472,1st_mile,2025-07-17,2025-07-17 11:14:00,2025-07-19 22:14:00,0,CHI_Hub,Courier_B,picked_up,
+100473,1st_mile,2025-07-12,2025-07-12 12:02:00,2025-07-14 02:02:00,0,CHI_Hub,Courier_B,picked_up,
+100474,1st_mile,2025-07-03,2025-07-03 06:54:00,2025-07-04 00:54:00,1,CHI_Hub,Courier_B,failed,
+100475,1st_mile,2025-07-06,2025-07-06 08:52:00,2025-07-08 04:52:00,1,NYC_Hub,Courier_B,failed,
+100476,1st_mile,2025-07-18,2025-07-18 12:24:00,2025-07-21 02:24:00,0,LA_Hub,Courier_A,in_transit,
+100477,1st_mile,2025-07-11,2025-07-11 06:26:00,2025-07-13 20:26:00,0,LA_Hub,Courier_C,failed,Customer not available
+100478,1st_mile,2025-07-02,2025-07-02 12:43:00,2025-07-03 05:43:00,0,DAL_Hub,Courier_A,failed,Traffic
+100479,1st_mile,2025-07-03,2025-07-03 06:16:00,2025-07-04 23:16:00,1,SEA_Hub,Courier_C,in_transit,
+100480,1st_mile,2025-08-03,2025-08-03 10:44:00,2025-08-03 23:44:00,0,LA_Hub,Courier_B,delivered,Traffic
+100481,1st_mile,2025-07-10,2025-07-10 12:52:00,2025-07-13 12:52:00,1,NYC_Hub,Courier_C,in_transit,
+100482,1st_mile,2025-08-01,2025-08-01 12:10:00,2025-08-01 22:10:00,0,CHI_Hub,Courier_A,delivered,Customer not available
+100483,1st_mile,2025-07-04,2025-07-04 10:14:00,2025-07-07 09:14:00,0,DAL_Hub,Courier_A,picked_up,Traffic
+100484,1st_mile,2025-07-29,2025-07-29 12:36:00,2025-07-31 22:36:00,1,DAL_Hub,Courier_B,delivered,
+100485,1st_mile,2025-08-01,2025-08-01 11:41:00,2025-08-01 14:41:00,1,DAL_Hub,Courier_B,picked_up,
+100486,1st_mile,2025-07-06,2025-07-06 12:38:00,2025-07-08 03:38:00,1,DAL_Hub,Courier_B,delivered,
+100487,1st_mile,2025-07-15,2025-07-15 12:29:00,2025-07-17 07:29:00,0,CHI_Hub,Courier_C,failed,
+100488,1st_mile,2025-07-07,2025-07-07 12:42:00,2025-07-08 17:42:00,1,CHI_Hub,Courier_B,delivered,
+100489,1st_mile,2025-07-07,2025-07-07 06:57:00,2025-07-08 04:57:00,0,LA_Hub,Courier_C,failed,
+100490,1st_mile,2025-07-17,2025-07-17 10:12:00,2025-07-18 11:12:00,1,DAL_Hub,Courier_A,failed,
+100491,1st_mile,2025-07-22,2025-07-22 06:48:00,2025-07-24 12:48:00,1,SEA_Hub,Courier_A,failed,
+100492,1st_mile,2025-08-02,2025-08-02 07:31:00,2025-08-02 08:31:00,1,SEA_Hub,Courier_B,failed,
+100493,1st_mile,2025-07-12,2025-07-12 11:52:00,2025-07-13 04:52:00,1,DAL_Hub,Courier_C,delivered,
+100494,1st_mile,2025-07-27,2025-07-27 10:58:00,2025-07-28 18:58:00,0,DAL_Hub,Courier_B,delivered,Traffic
+100495,1st_mile,2025-07-09,2025-07-09 07:26:00,2025-07-12 01:26:00,0,SEA_Hub,Courier_B,in_transit,Weather
+100496,1st_mile,2025-07-14,2025-07-14 10:45:00,2025-07-16 00:45:00,0,LA_Hub,Courier_C,in_transit,Address issue
+100497,1st_mile,2025-08-04,2025-08-04 11:40:00,2025-08-06 05:40:00,1,CHI_Hub,Courier_C,failed,
+100498,1st_mile,2025-08-04,2025-08-04 08:56:00,2025-08-06 15:56:00,1,SEA_Hub,Courier_A,picked_up,
+100499,1st_mile,2025-07-10,2025-07-10 06:42:00,2025-07-10 14:42:00,1,CHI_Hub,Courier_A,delivered,
+100500,1st_mile,2025-07-10,2025-07-10 12:03:00,2025-07-12 02:03:00,1,SEA_Hub,Courier_A,delivered,
+100501,1st_mile,2025-07-07,2025-07-07 10:55:00,2025-07-10 10:55:00,1,SEA_Hub,Courier_B,in_transit,
+100502,1st_mile,2025-07-04,2025-07-04 09:24:00,2025-07-06 15:24:00,0,SEA_Hub,Courier_A,picked_up,Customer not available
+100503,1st_mile,2025-07-13,2025-07-13 10:55:00,2025-07-15 19:55:00,1,CHI_Hub,Courier_C,in_transit,
+100504,1st_mile,2025-07-19,2025-07-19 09:11:00,2025-07-19 19:11:00,1,LA_Hub,Courier_C,picked_up,
+100505,1st_mile,2025-07-03,2025-07-03 09:17:00,2025-07-06 09:17:00,0,LA_Hub,Courier_A,delivered,
+100506,1st_mile,2025-07-22,2025-07-22 09:45:00,2025-07-23 05:45:00,1,LA_Hub,Courier_B,picked_up,
+100507,1st_mile,2025-08-01,2025-08-01 12:36:00,2025-08-04 11:36:00,0,NYC_Hub,Courier_C,delivered,Address issue
+100508,1st_mile,2025-07-15,2025-07-15 07:33:00,2025-07-15 16:33:00,1,DAL_Hub,Courier_C,failed,
+100509,1st_mile,2025-07-23,2025-07-23 07:56:00,2025-07-24 11:56:00,0,CHI_Hub,Courier_B,delivered,Weather
+100510,1st_mile,2025-08-03,2025-08-03 09:35:00,2025-08-03 11:35:00,1,CHI_Hub,Courier_B,in_transit,
+100511,1st_mile,2025-07-03,2025-07-03 11:56:00,2025-07-05 05:56:00,0,NYC_Hub,Courier_B,delivered,Address issue
+100512,1st_mile,2025-07-19,2025-07-19 06:58:00,2025-07-22 01:58:00,0,SEA_Hub,Courier_C,failed,Traffic
+100513,1st_mile,2025-07-03,2025-07-03 08:57:00,2025-07-04 09:57:00,0,SEA_Hub,Courier_A,picked_up,Weather
+100514,1st_mile,2025-08-04,2025-08-04 10:00:00,2025-08-04 19:00:00,1,LA_Hub,Courier_C,failed,
+100515,1st_mile,2025-07-14,2025-07-14 10:53:00,2025-07-16 18:53:00,1,LA_Hub,Courier_A,failed,
+100516,1st_mile,2025-07-03,2025-07-03 06:04:00,2025-07-03 13:04:00,1,CHI_Hub,Courier_C,picked_up,
+100517,1st_mile,2025-07-17,2025-07-17 09:24:00,2025-07-19 19:24:00,0,DAL_Hub,Courier_B,picked_up,Traffic
+100518,1st_mile,2025-07-08,2025-07-08 10:00:00,2025-07-08 19:00:00,1,NYC_Hub,Courier_B,picked_up,
+100519,1st_mile,2025-07-20,2025-07-20 10:05:00,2025-07-21 23:05:00,0,DAL_Hub,Courier_B,picked_up,Traffic
+100520,1st_mile,2025-07-11,2025-07-11 10:14:00,2025-07-12 04:14:00,0,SEA_Hub,Courier_B,in_transit,Customer not available
+100521,1st_mile,2025-07-24,2025-07-24 06:35:00,2025-07-27 06:35:00,1,NYC_Hub,Courier_A,picked_up,
+100522,1st_mile,2025-08-04,2025-08-04 10:05:00,2025-08-06 02:05:00,1,CHI_Hub,Courier_A,failed,
+100523,1st_mile,2025-07-11,2025-07-11 07:14:00,2025-07-12 16:14:00,1,NYC_Hub,Courier_A,picked_up,
+100524,1st_mile,2025-08-05,2025-08-05 06:18:00,2025-08-05 15:18:00,0,NYC_Hub,Courier_A,failed,Customer not available
+100525,1st_mile,2025-07-23,2025-07-23 07:42:00,2025-07-24 14:42:00,1,CHI_Hub,Courier_C,picked_up,
+100526,1st_mile,2025-07-21,2025-07-21 09:28:00,2025-07-23 04:28:00,0,SEA_Hub,Courier_A,delivered,Customer not available
+100527,1st_mile,2025-07-28,2025-07-28 07:00:00,2025-07-30 00:00:00,1,LA_Hub,Courier_C,failed,
+100528,1st_mile,2025-07-24,2025-07-24 07:43:00,2025-07-26 02:43:00,0,DAL_Hub,Courier_B,delivered,Customer not available
+100529,1st_mile,2025-08-01,2025-08-01 10:06:00,2025-08-02 09:06:00,1,CHI_Hub,Courier_A,in_transit,
+100530,1st_mile,2025-07-05,2025-07-05 11:04:00,2025-07-05 14:04:00,1,SEA_Hub,Courier_C,failed,
+100531,1st_mile,2025-07-03,2025-07-03 10:16:00,2025-07-06 08:16:00,0,LA_Hub,Courier_B,failed,Weather
+100532,1st_mile,2025-07-19,2025-07-19 07:29:00,2025-07-22 00:29:00,1,DAL_Hub,Courier_B,picked_up,
+100533,1st_mile,2025-07-11,2025-07-11 12:32:00,2025-07-12 06:32:00,0,LA_Hub,Courier_A,in_transit,Traffic
+100534,1st_mile,2025-07-23,2025-07-23 06:14:00,2025-07-25 21:14:00,1,NYC_Hub,Courier_B,delivered,
+100535,1st_mile,2025-07-03,2025-07-03 11:13:00,2025-07-06 06:13:00,0,DAL_Hub,Courier_B,failed,
+100536,1st_mile,2025-07-03,2025-07-03 11:20:00,2025-07-04 01:20:00,0,CHI_Hub,Courier_C,in_transit,Traffic
+100537,1st_mile,2025-07-25,2025-07-25 08:37:00,2025-07-25 18:37:00,0,DAL_Hub,Courier_A,failed,Customer not available
+100538,1st_mile,2025-07-23,2025-07-23 09:50:00,2025-07-25 23:50:00,1,SEA_Hub,Courier_A,failed,
+100539,1st_mile,2025-07-15,2025-07-15 06:32:00,2025-07-16 18:32:00,1,LA_Hub,Courier_A,in_transit,
+100540,1st_mile,2025-07-08,2025-07-08 11:14:00,2025-07-10 17:14:00,0,NYC_Hub,Courier_B,failed,Traffic
+100541,1st_mile,2025-07-14,2025-07-14 10:10:00,2025-07-16 15:10:00,1,LA_Hub,Courier_A,in_transit,
+100542,1st_mile,2025-07-09,2025-07-09 11:32:00,2025-07-09 17:32:00,1,NYC_Hub,Courier_A,delivered,
+100543,1st_mile,2025-08-03,2025-08-03 09:38:00,2025-08-03 12:38:00,0,NYC_Hub,Courier_A,failed,Address issue
+100544,1st_mile,2025-07-31,2025-07-31 12:30:00,2025-08-01 10:30:00,1,DAL_Hub,Courier_C,in_transit,
+100545,1st_mile,2025-08-02,2025-08-02 08:10:00,2025-08-04 04:10:00,0,SEA_Hub,Courier_C,picked_up,Weather
+100546,1st_mile,2025-07-25,2025-07-25 09:08:00,2025-07-25 23:08:00,1,LA_Hub,Courier_C,failed,
+100547,1st_mile,2025-07-07,2025-07-07 07:30:00,2025-07-07 12:30:00,1,NYC_Hub,Courier_B,in_transit,
+100548,1st_mile,2025-07-28,2025-07-28 10:26:00,2025-07-30 10:26:00,1,SEA_Hub,Courier_B,in_transit,
+100549,1st_mile,2025-07-25,2025-07-25 08:37:00,2025-07-25 21:37:00,0,LA_Hub,Courier_B,failed,Weather
+100550,1st_mile,2025-07-06,2025-07-06 08:38:00,2025-07-09 06:38:00,0,CHI_Hub,Courier_A,picked_up,
+100551,1st_mile,2025-08-06,2025-08-06 10:07:00,2025-08-09 05:07:00,1,DAL_Hub,Courier_C,in_transit,
+100552,1st_mile,2025-07-27,2025-07-27 08:06:00,2025-07-28 04:06:00,0,SEA_Hub,Courier_B,delivered,Address issue
+100553,1st_mile,2025-07-28,2025-07-28 10:23:00,2025-07-29 22:23:00,0,LA_Hub,Courier_B,failed,Weather
+100554,1st_mile,2025-07-24,2025-07-24 10:35:00,2025-07-27 00:35:00,0,CHI_Hub,Courier_C,delivered,Traffic
+100555,1st_mile,2025-07-09,2025-07-09 12:55:00,2025-07-10 04:55:00,1,DAL_Hub,Courier_C,in_transit,
+100556,1st_mile,2025-07-14,2025-07-14 10:25:00,2025-07-16 06:25:00,1,LA_Hub,Courier_B,picked_up,
+100557,1st_mile,2025-07-10,2025-07-10 09:59:00,2025-07-12 17:59:00,1,NYC_Hub,Courier_B,in_transit,
+100558,1st_mile,2025-07-06,2025-07-06 10:02:00,2025-07-08 12:02:00,0,SEA_Hub,Courier_C,delivered,Address issue
+100559,1st_mile,2025-07-04,2025-07-04 12:52:00,2025-07-05 11:52:00,0,DAL_Hub,Courier_A,in_transit,Address issue
+100560,1st_mile,2025-07-19,2025-07-19 07:02:00,2025-07-22 01:02:00,1,SEA_Hub,Courier_A,picked_up,
+100561,1st_mile,2025-07-16,2025-07-16 11:00:00,2025-07-17 08:00:00,1,CHI_Hub,Courier_B,delivered,
+100562,1st_mile,2025-07-26,2025-07-26 10:12:00,2025-07-29 05:12:00,1,NYC_Hub,Courier_A,delivered,
+100563,1st_mile,2025-07-23,2025-07-23 12:17:00,2025-07-24 17:17:00,1,DAL_Hub,Courier_B,picked_up,
+100564,1st_mile,2025-07-12,2025-07-12 09:32:00,2025-07-12 23:32:00,1,SEA_Hub,Courier_B,delivered,
+100565,1st_mile,2025-08-02,2025-08-02 08:56:00,2025-08-05 05:56:00,0,DAL_Hub,Courier_B,failed,Weather
+100566,1st_mile,2025-07-22,2025-07-22 12:29:00,2025-07-24 23:29:00,1,DAL_Hub,Courier_A,delivered,
+100567,1st_mile,2025-07-25,2025-07-25 11:50:00,2025-07-26 16:50:00,1,CHI_Hub,Courier_B,delivered,
+100568,1st_mile,2025-07-17,2025-07-17 07:18:00,2025-07-17 19:18:00,0,CHI_Hub,Courier_A,in_transit,Traffic
+100569,1st_mile,2025-07-21,2025-07-21 08:13:00,2025-07-22 19:13:00,1,LA_Hub,Courier_B,in_transit,
+100570,1st_mile,2025-07-16,2025-07-16 12:16:00,2025-07-17 15:16:00,1,LA_Hub,Courier_A,delivered,
+100571,1st_mile,2025-07-07,2025-07-07 06:58:00,2025-07-07 17:58:00,0,SEA_Hub,Courier_A,picked_up,Traffic
+100572,1st_mile,2025-07-24,2025-07-24 10:20:00,2025-07-27 02:20:00,0,DAL_Hub,Courier_A,delivered,Traffic
+100573,1st_mile,2025-07-15,2025-07-15 12:36:00,2025-07-16 05:36:00,1,SEA_Hub,Courier_B,failed,
+100574,1st_mile,2025-08-02,2025-08-02 08:25:00,2025-08-03 07:25:00,0,NYC_Hub,Courier_C,failed,Customer not available
+100575,1st_mile,2025-07-01,2025-07-01 06:43:00,2025-07-02 09:43:00,0,SEA_Hub,Courier_A,delivered,Customer not available
+100576,1st_mile,2025-07-17,2025-07-17 07:35:00,2025-07-18 17:35:00,1,CHI_Hub,Courier_B,delivered,
+100577,1st_mile,2025-07-12,2025-07-12 09:27:00,2025-07-13 12:27:00,0,CHI_Hub,Courier_B,failed,Customer not available
+100578,1st_mile,2025-07-29,2025-07-29 07:36:00,2025-07-30 00:36:00,1,NYC_Hub,Courier_C,delivered,
+100579,1st_mile,2025-08-05,2025-08-05 09:54:00,2025-08-07 10:54:00,1,LA_Hub,Courier_C,in_transit,
+100580,1st_mile,2025-07-01,2025-07-01 07:26:00,2025-07-03 23:26:00,1,SEA_Hub,Courier_C,delivered,
+100581,1st_mile,2025-07-20,2025-07-20 08:35:00,2025-07-20 15:35:00,0,NYC_Hub,Courier_C,in_transit,
+100582,1st_mile,2025-07-14,2025-07-14 12:16:00,2025-07-17 01:16:00,1,DAL_Hub,Courier_C,delivered,
+100583,1st_mile,2025-07-24,2025-07-24 08:35:00,2025-07-27 08:35:00,0,CHI_Hub,Courier_A,failed,
+100584,1st_mile,2025-07-23,2025-07-23 12:43:00,2025-07-24 14:43:00,1,CHI_Hub,Courier_B,delivered,
+100585,1st_mile,2025-07-29,2025-07-29 06:24:00,2025-07-30 19:24:00,0,LA_Hub,Courier_A,delivered,Traffic
+100586,1st_mile,2025-08-06,2025-08-06 09:54:00,2025-08-06 19:54:00,1,LA_Hub,Courier_B,in_transit,
+100587,1st_mile,2025-07-21,2025-07-21 11:18:00,2025-07-22 22:18:00,0,CHI_Hub,Courier_B,delivered,Address issue
+100588,1st_mile,2025-08-03,2025-08-03 09:26:00,2025-08-04 07:26:00,1,NYC_Hub,Courier_A,in_transit,
+100589,1st_mile,2025-07-06,2025-07-06 07:10:00,2025-07-08 10:10:00,1,NYC_Hub,Courier_A,failed,
+100590,1st_mile,2025-07-02,2025-07-02 12:25:00,2025-07-05 08:25:00,1,NYC_Hub,Courier_B,in_transit,
+100591,1st_mile,2025-07-25,2025-07-25 08:14:00,2025-07-26 16:14:00,0,DAL_Hub,Courier_C,in_transit,Weather
+100592,1st_mile,2025-08-03,2025-08-03 12:10:00,2025-08-03 16:10:00,1,CHI_Hub,Courier_B,failed,
+100593,1st_mile,2025-08-04,2025-08-04 08:35:00,2025-08-06 17:35:00,1,SEA_Hub,Courier_A,failed,
+100594,1st_mile,2025-08-03,2025-08-03 11:40:00,2025-08-06 08:40:00,0,CHI_Hub,Courier_B,in_transit,
+100595,1st_mile,2025-07-29,2025-07-29 08:23:00,2025-07-31 13:23:00,0,LA_Hub,Courier_B,picked_up,
+100596,1st_mile,2025-08-03,2025-08-03 12:48:00,2025-08-04 06:48:00,0,CHI_Hub,Courier_B,picked_up,Traffic
+100597,1st_mile,2025-07-31,2025-07-31 08:00:00,2025-08-02 16:00:00,0,SEA_Hub,Courier_A,picked_up,Address issue
+100598,1st_mile,2025-07-24,2025-07-24 07:26:00,2025-07-27 07:26:00,0,DAL_Hub,Courier_A,in_transit,Traffic
+100599,1st_mile,2025-07-25,2025-07-25 07:16:00,2025-07-25 18:16:00,0,LA_Hub,Courier_C,delivered,Customer not available
+100600,1st_mile,2025-08-04,2025-08-04 12:17:00,2025-08-06 17:17:00,1,NYC_Hub,Courier_A,in_transit,
+100601,1st_mile,2025-07-08,2025-07-08 11:29:00,2025-07-10 21:29:00,0,SEA_Hub,Courier_B,in_transit,Customer not available
+100602,1st_mile,2025-07-02,2025-07-02 07:03:00,2025-07-05 04:03:00,1,LA_Hub,Courier_A,delivered,
+100603,1st_mile,2025-07-09,2025-07-09 11:28:00,2025-07-09 13:28:00,1,NYC_Hub,Courier_A,picked_up,
+100604,1st_mile,2025-07-14,2025-07-14 08:26:00,2025-07-16 00:26:00,0,CHI_Hub,Courier_B,picked_up,Customer not available
+100605,1st_mile,2025-07-06,2025-07-06 12:48:00,2025-07-07 07:48:00,1,CHI_Hub,Courier_B,picked_up,
+100606,1st_mile,2025-07-12,2025-07-12 07:57:00,2025-07-13 16:57:00,0,NYC_Hub,Courier_A,in_transit,Traffic
+100607,1st_mile,2025-07-29,2025-07-29 07:47:00,2025-07-29 12:47:00,1,DAL_Hub,Courier_C,picked_up,
+100608,1st_mile,2025-07-31,2025-07-31 09:43:00,2025-08-02 01:43:00,0,LA_Hub,Courier_C,picked_up,Address issue
+100609,1st_mile,2025-08-03,2025-08-03 06:16:00,2025-08-05 20:16:00,0,LA_Hub,Courier_B,picked_up,Weather
+100610,1st_mile,2025-07-08,2025-07-08 07:40:00,2025-07-10 15:40:00,0,NYC_Hub,Courier_A,delivered,Address issue
+100611,1st_mile,2025-07-08,2025-07-08 09:50:00,2025-07-09 17:50:00,1,NYC_Hub,Courier_C,failed,
+100612,1st_mile,2025-07-24,2025-07-24 12:05:00,2025-07-25 20:05:00,1,DAL_Hub,Courier_A,delivered,
+100613,1st_mile,2025-07-04,2025-07-04 08:41:00,2025-07-05 04:41:00,1,LA_Hub,Courier_B,in_transit,
+100614,1st_mile,2025-08-05,2025-08-05 12:41:00,2025-08-07 09:41:00,0,LA_Hub,Courier_A,failed,Customer not available
+100615,1st_mile,2025-07-09,2025-07-09 08:57:00,2025-07-09 14:57:00,0,DAL_Hub,Courier_C,delivered,Address issue
+100616,1st_mile,2025-08-01,2025-08-01 07:36:00,2025-08-02 07:36:00,0,CHI_Hub,Courier_C,failed,Customer not available
+100617,1st_mile,2025-08-05,2025-08-05 07:04:00,2025-08-08 03:04:00,1,DAL_Hub,Courier_B,delivered,
+100618,1st_mile,2025-07-30,2025-07-30 06:49:00,2025-08-01 23:49:00,0,LA_Hub,Courier_A,delivered,Address issue
+100619,1st_mile,2025-07-16,2025-07-16 08:46:00,2025-07-16 17:46:00,0,LA_Hub,Courier_C,failed,Address issue
+100620,1st_mile,2025-07-10,2025-07-10 10:18:00,2025-07-12 04:18:00,0,CHI_Hub,Courier_A,picked_up,Address issue
+100621,1st_mile,2025-07-05,2025-07-05 06:53:00,2025-07-05 23:53:00,1,NYC_Hub,Courier_A,picked_up,
+100622,1st_mile,2025-07-13,2025-07-13 06:02:00,2025-07-15 08:02:00,0,SEA_Hub,Courier_C,delivered,
+100623,1st_mile,2025-07-24,2025-07-24 07:38:00,2025-07-24 17:38:00,1,LA_Hub,Courier_C,failed,
+100624,1st_mile,2025-07-30,2025-07-30 12:40:00,2025-07-30 20:40:00,0,SEA_Hub,Courier_C,failed,Customer not available
+100625,1st_mile,2025-07-04,2025-07-04 12:39:00,2025-07-05 23:39:00,1,NYC_Hub,Courier_B,picked_up,
+100626,1st_mile,2025-08-03,2025-08-03 06:06:00,2025-08-04 12:06:00,0,LA_Hub,Courier_A,in_transit,Address issue
+100627,1st_mile,2025-07-12,2025-07-12 10:47:00,2025-07-15 10:47:00,0,NYC_Hub,Courier_C,delivered,Traffic
+100628,1st_mile,2025-07-28,2025-07-28 06:10:00,2025-07-29 06:10:00,0,SEA_Hub,Courier_B,in_transit,Address issue
+100629,1st_mile,2025-07-29,2025-07-29 08:57:00,2025-07-31 01:57:00,0,CHI_Hub,Courier_B,failed,Customer not available
+100630,1st_mile,2025-07-16,2025-07-16 10:34:00,2025-07-17 14:34:00,0,SEA_Hub,Courier_C,delivered,Customer not available
+100631,1st_mile,2025-07-29,2025-07-29 09:25:00,2025-07-29 10:25:00,1,CHI_Hub,Courier_C,picked_up,
+100632,1st_mile,2025-07-20,2025-07-20 06:19:00,2025-07-21 11:19:00,1,CHI_Hub,Courier_A,delivered,
+100633,1st_mile,2025-07-07,2025-07-07 06:29:00,2025-07-09 04:29:00,1,LA_Hub,Courier_B,delivered,
+100634,1st_mile,2025-07-15,2025-07-15 08:51:00,2025-07-16 23:51:00,1,SEA_Hub,Courier_B,in_transit,
+100635,1st_mile,2025-07-21,2025-07-21 12:30:00,2025-07-22 11:30:00,0,SEA_Hub,Courier_A,delivered,
+100636,1st_mile,2025-08-06,2025-08-06 09:05:00,2025-08-06 17:05:00,0,CHI_Hub,Courier_B,failed,
+100637,1st_mile,2025-07-15,2025-07-15 11:41:00,2025-07-15 13:41:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100638,1st_mile,2025-08-04,2025-08-04 10:09:00,2025-08-06 04:09:00,1,LA_Hub,Courier_A,failed,
+100639,1st_mile,2025-08-06,2025-08-06 10:05:00,2025-08-07 15:05:00,0,CHI_Hub,Courier_B,in_transit,Weather
+100640,1st_mile,2025-07-22,2025-07-22 06:30:00,2025-07-22 13:30:00,0,CHI_Hub,Courier_A,failed,Address issue
+100641,1st_mile,2025-07-28,2025-07-28 12:44:00,2025-07-29 05:44:00,1,DAL_Hub,Courier_C,in_transit,
+100642,1st_mile,2025-07-26,2025-07-26 11:36:00,2025-07-27 13:36:00,1,LA_Hub,Courier_A,delivered,
+100643,1st_mile,2025-07-21,2025-07-21 11:59:00,2025-07-21 23:59:00,1,DAL_Hub,Courier_B,delivered,
+100644,1st_mile,2025-07-13,2025-07-13 08:22:00,2025-07-13 12:22:00,0,LA_Hub,Courier_B,failed,Address issue
+100645,1st_mile,2025-07-10,2025-07-10 09:02:00,2025-07-11 15:02:00,1,CHI_Hub,Courier_A,picked_up,
+100646,1st_mile,2025-07-04,2025-07-04 07:39:00,2025-07-05 02:39:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100647,1st_mile,2025-07-29,2025-07-29 09:01:00,2025-07-31 04:01:00,1,SEA_Hub,Courier_A,in_transit,
+100648,1st_mile,2025-08-05,2025-08-05 09:39:00,2025-08-06 04:39:00,1,DAL_Hub,Courier_C,picked_up,
+100649,1st_mile,2025-07-11,2025-07-11 06:18:00,2025-07-12 08:18:00,0,NYC_Hub,Courier_B,picked_up,
+100650,1st_mile,2025-07-25,2025-07-25 11:17:00,2025-07-27 10:17:00,1,NYC_Hub,Courier_B,failed,
+100651,1st_mile,2025-07-25,2025-07-25 10:45:00,2025-07-25 23:45:00,0,DAL_Hub,Courier_C,picked_up,Weather
+100652,1st_mile,2025-07-13,2025-07-13 10:29:00,2025-07-16 10:29:00,1,NYC_Hub,Courier_A,delivered,
+100653,1st_mile,2025-08-01,2025-08-01 09:47:00,2025-08-02 06:47:00,1,CHI_Hub,Courier_C,delivered,
+100654,1st_mile,2025-07-20,2025-07-20 07:32:00,2025-07-21 19:32:00,1,CHI_Hub,Courier_B,picked_up,
+100655,1st_mile,2025-07-15,2025-07-15 07:21:00,2025-07-17 10:21:00,1,NYC_Hub,Courier_C,failed,
+100656,1st_mile,2025-07-27,2025-07-27 07:36:00,2025-07-28 03:36:00,0,CHI_Hub,Courier_C,delivered,Traffic
+100657,1st_mile,2025-08-04,2025-08-04 07:13:00,2025-08-05 01:13:00,1,LA_Hub,Courier_B,in_transit,
+100658,1st_mile,2025-07-10,2025-07-10 11:59:00,2025-07-11 08:59:00,0,NYC_Hub,Courier_C,picked_up,Weather
+100659,1st_mile,2025-07-21,2025-07-21 12:56:00,2025-07-22 07:56:00,1,CHI_Hub,Courier_B,failed,
+100660,1st_mile,2025-07-29,2025-07-29 11:59:00,2025-07-30 23:59:00,1,LA_Hub,Courier_A,in_transit,
+100661,1st_mile,2025-07-02,2025-07-02 12:39:00,2025-07-03 23:39:00,1,SEA_Hub,Courier_A,in_transit,
+100662,1st_mile,2025-07-23,2025-07-23 06:44:00,2025-07-25 20:44:00,1,SEA_Hub,Courier_C,failed,
+100663,1st_mile,2025-07-12,2025-07-12 12:24:00,2025-07-15 03:24:00,0,LA_Hub,Courier_A,in_transit,Weather
+100664,1st_mile,2025-07-03,2025-07-03 09:48:00,2025-07-03 11:48:00,0,DAL_Hub,Courier_A,in_transit,Weather
+100665,1st_mile,2025-07-05,2025-07-05 07:59:00,2025-07-07 16:59:00,0,CHI_Hub,Courier_B,in_transit,Traffic
+100666,1st_mile,2025-07-26,2025-07-26 12:02:00,2025-07-28 13:02:00,0,DAL_Hub,Courier_C,picked_up,Address issue
+100667,1st_mile,2025-07-07,2025-07-07 09:29:00,2025-07-07 15:29:00,1,SEA_Hub,Courier_C,failed,
+100668,1st_mile,2025-08-05,2025-08-05 09:33:00,2025-08-05 16:33:00,1,CHI_Hub,Courier_B,failed,
+100669,1st_mile,2025-07-19,2025-07-19 09:10:00,2025-07-21 16:10:00,0,SEA_Hub,Courier_A,in_transit,Traffic
+100670,1st_mile,2025-07-29,2025-07-29 06:46:00,2025-07-31 23:46:00,1,LA_Hub,Courier_C,in_transit,
+100671,1st_mile,2025-07-27,2025-07-27 08:28:00,2025-07-27 12:28:00,1,DAL_Hub,Courier_C,in_transit,
+100672,1st_mile,2025-07-06,2025-07-06 08:20:00,2025-07-07 05:20:00,1,NYC_Hub,Courier_A,failed,
+100673,1st_mile,2025-07-06,2025-07-06 10:45:00,2025-07-08 12:45:00,1,DAL_Hub,Courier_C,failed,
+100674,1st_mile,2025-07-11,2025-07-11 08:36:00,2025-07-12 04:36:00,1,LA_Hub,Courier_A,picked_up,
+100675,1st_mile,2025-07-20,2025-07-20 08:46:00,2025-07-22 18:46:00,0,LA_Hub,Courier_A,in_transit,Weather
+100676,1st_mile,2025-07-01,2025-07-01 10:48:00,2025-07-02 19:48:00,1,DAL_Hub,Courier_B,failed,
+100677,1st_mile,2025-08-01,2025-08-01 07:13:00,2025-08-03 20:13:00,0,DAL_Hub,Courier_B,picked_up,Address issue
+100678,1st_mile,2025-07-01,2025-07-01 07:56:00,2025-07-04 06:56:00,0,SEA_Hub,Courier_C,in_transit,
+100679,1st_mile,2025-07-12,2025-07-12 07:03:00,2025-07-14 04:03:00,1,LA_Hub,Courier_A,delivered,
+100680,1st_mile,2025-07-06,2025-07-06 06:06:00,2025-07-08 12:06:00,1,LA_Hub,Courier_C,delivered,
+100681,1st_mile,2025-07-30,2025-07-30 11:37:00,2025-08-01 10:37:00,1,NYC_Hub,Courier_B,delivered,
+100682,1st_mile,2025-07-25,2025-07-25 12:04:00,2025-07-27 19:04:00,1,CHI_Hub,Courier_B,in_transit,
+100683,1st_mile,2025-07-18,2025-07-18 08:33:00,2025-07-20 13:33:00,1,LA_Hub,Courier_C,picked_up,
+100684,1st_mile,2025-08-06,2025-08-06 11:40:00,2025-08-09 07:40:00,1,DAL_Hub,Courier_C,delivered,
+100685,1st_mile,2025-07-21,2025-07-21 08:33:00,2025-07-23 06:33:00,1,SEA_Hub,Courier_C,failed,
+100686,1st_mile,2025-08-01,2025-08-01 12:11:00,2025-08-02 18:11:00,0,LA_Hub,Courier_A,picked_up,
+100687,1st_mile,2025-07-30,2025-07-30 11:50:00,2025-07-31 03:50:00,1,SEA_Hub,Courier_B,failed,
+100688,1st_mile,2025-07-22,2025-07-22 08:35:00,2025-07-23 12:35:00,1,LA_Hub,Courier_C,delivered,
+100689,1st_mile,2025-07-05,2025-07-05 08:19:00,2025-07-08 01:19:00,0,NYC_Hub,Courier_A,delivered,Customer not available
+100690,1st_mile,2025-07-26,2025-07-26 11:36:00,2025-07-26 15:36:00,1,LA_Hub,Courier_B,delivered,
+100691,1st_mile,2025-07-31,2025-07-31 12:02:00,2025-08-01 06:02:00,0,LA_Hub,Courier_C,failed,Address issue
+100692,1st_mile,2025-07-22,2025-07-22 09:50:00,2025-07-24 14:50:00,1,SEA_Hub,Courier_B,delivered,
+100693,1st_mile,2025-07-14,2025-07-14 10:43:00,2025-07-16 05:43:00,0,NYC_Hub,Courier_A,delivered,
+100694,1st_mile,2025-07-22,2025-07-22 09:40:00,2025-07-25 06:40:00,1,SEA_Hub,Courier_C,failed,
+100695,1st_mile,2025-07-08,2025-07-08 12:50:00,2025-07-10 04:50:00,0,NYC_Hub,Courier_B,failed,
+100696,1st_mile,2025-08-01,2025-08-01 07:23:00,2025-08-03 17:23:00,0,LA_Hub,Courier_C,delivered,Weather
+100697,1st_mile,2025-07-08,2025-07-08 08:50:00,2025-07-08 13:50:00,1,NYC_Hub,Courier_B,picked_up,
+100698,1st_mile,2025-08-02,2025-08-02 07:12:00,2025-08-04 03:12:00,0,SEA_Hub,Courier_B,delivered,Weather
+100699,1st_mile,2025-07-07,2025-07-07 12:33:00,2025-07-08 05:33:00,1,NYC_Hub,Courier_B,failed,
+100700,1st_mile,2025-07-01,2025-07-01 08:59:00,2025-07-01 14:59:00,1,CHI_Hub,Courier_B,picked_up,
+100701,1st_mile,2025-08-03,2025-08-03 12:42:00,2025-08-05 04:42:00,1,SEA_Hub,Courier_B,in_transit,
+100702,1st_mile,2025-07-13,2025-07-13 07:18:00,2025-07-14 19:18:00,0,DAL_Hub,Courier_C,picked_up,Customer not available
+100703,1st_mile,2025-07-10,2025-07-10 07:17:00,2025-07-10 22:17:00,1,SEA_Hub,Courier_C,picked_up,
+100704,1st_mile,2025-08-04,2025-08-04 08:35:00,2025-08-06 01:35:00,0,LA_Hub,Courier_C,delivered,Address issue
+100705,1st_mile,2025-07-16,2025-07-16 07:04:00,2025-07-17 23:04:00,0,SEA_Hub,Courier_B,picked_up,Weather
+100706,1st_mile,2025-07-02,2025-07-02 09:57:00,2025-07-02 16:57:00,1,DAL_Hub,Courier_A,picked_up,
+100707,1st_mile,2025-07-26,2025-07-26 07:45:00,2025-07-28 17:45:00,0,CHI_Hub,Courier_B,in_transit,Address issue
+100708,1st_mile,2025-07-06,2025-07-06 12:48:00,2025-07-09 00:48:00,1,NYC_Hub,Courier_C,failed,
+100709,1st_mile,2025-07-30,2025-07-30 08:43:00,2025-08-01 20:43:00,0,LA_Hub,Courier_A,in_transit,Address issue
+100710,1st_mile,2025-07-17,2025-07-17 08:25:00,2025-07-18 08:25:00,0,CHI_Hub,Courier_B,failed,
+100711,1st_mile,2025-07-05,2025-07-05 09:07:00,2025-07-07 06:07:00,0,DAL_Hub,Courier_A,delivered,Customer not available
+100712,1st_mile,2025-08-06,2025-08-06 07:32:00,2025-08-06 21:32:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100713,1st_mile,2025-08-04,2025-08-04 09:25:00,2025-08-06 14:25:00,1,SEA_Hub,Courier_A,in_transit,
+100714,1st_mile,2025-07-25,2025-07-25 06:21:00,2025-07-26 09:21:00,0,DAL_Hub,Courier_C,delivered,Address issue
+100715,1st_mile,2025-07-16,2025-07-16 07:42:00,2025-07-16 17:42:00,0,NYC_Hub,Courier_C,failed,Customer not available
+100716,1st_mile,2025-08-05,2025-08-05 06:52:00,2025-08-07 15:52:00,1,CHI_Hub,Courier_B,picked_up,
+100717,1st_mile,2025-07-25,2025-07-25 08:31:00,2025-07-25 16:31:00,1,LA_Hub,Courier_A,picked_up,
+100718,1st_mile,2025-07-10,2025-07-10 09:34:00,2025-07-11 23:34:00,0,SEA_Hub,Courier_C,failed,Weather
+100719,1st_mile,2025-07-14,2025-07-14 11:56:00,2025-07-16 04:56:00,0,SEA_Hub,Courier_C,delivered,Traffic
+100720,1st_mile,2025-07-23,2025-07-23 06:37:00,2025-07-23 08:37:00,0,LA_Hub,Courier_B,picked_up,Customer not available
+100721,1st_mile,2025-08-05,2025-08-05 06:00:00,2025-08-08 06:00:00,0,NYC_Hub,Courier_B,picked_up,Weather
+100722,1st_mile,2025-07-28,2025-07-28 11:37:00,2025-07-30 14:37:00,0,DAL_Hub,Courier_B,failed,Traffic
+100723,1st_mile,2025-08-04,2025-08-04 07:42:00,2025-08-05 06:42:00,0,LA_Hub,Courier_A,failed,Customer not available
+100724,1st_mile,2025-07-27,2025-07-27 07:18:00,2025-07-28 00:18:00,1,NYC_Hub,Courier_A,picked_up,
+100725,1st_mile,2025-08-01,2025-08-01 11:27:00,2025-08-02 05:27:00,1,LA_Hub,Courier_C,failed,
+100726,1st_mile,2025-07-28,2025-07-28 10:11:00,2025-07-30 21:11:00,0,SEA_Hub,Courier_B,failed,Customer not available
+100727,1st_mile,2025-07-15,2025-07-15 07:27:00,2025-07-15 08:27:00,0,LA_Hub,Courier_C,delivered,Traffic
+100728,1st_mile,2025-08-04,2025-08-04 10:23:00,2025-08-04 15:23:00,1,SEA_Hub,Courier_B,delivered,
+100729,1st_mile,2025-07-31,2025-07-31 11:05:00,2025-08-01 06:05:00,0,DAL_Hub,Courier_C,picked_up,Address issue
+100730,1st_mile,2025-07-06,2025-07-06 07:30:00,2025-07-06 17:30:00,0,SEA_Hub,Courier_A,delivered,Address issue
+100731,1st_mile,2025-07-01,2025-07-01 09:29:00,2025-07-04 03:29:00,0,SEA_Hub,Courier_C,delivered,Traffic
+100732,1st_mile,2025-07-23,2025-07-23 12:18:00,2025-07-25 02:18:00,1,NYC_Hub,Courier_C,delivered,
+100733,1st_mile,2025-07-04,2025-07-04 11:30:00,2025-07-05 09:30:00,1,CHI_Hub,Courier_C,picked_up,
+100734,1st_mile,2025-08-01,2025-08-01 06:08:00,2025-08-03 23:08:00,1,CHI_Hub,Courier_B,in_transit,
+100735,1st_mile,2025-07-18,2025-07-18 12:16:00,2025-07-18 14:16:00,1,SEA_Hub,Courier_A,in_transit,
+100736,1st_mile,2025-07-24,2025-07-24 12:11:00,2025-07-25 22:11:00,1,DAL_Hub,Courier_A,picked_up,
+100737,1st_mile,2025-07-06,2025-07-06 07:38:00,2025-07-07 03:38:00,0,DAL_Hub,Courier_B,in_transit,Traffic
+100738,1st_mile,2025-07-11,2025-07-11 07:36:00,2025-07-13 04:36:00,1,CHI_Hub,Courier_A,picked_up,
+100739,1st_mile,2025-07-30,2025-07-30 09:30:00,2025-08-01 00:30:00,0,SEA_Hub,Courier_A,failed,Traffic
+100740,1st_mile,2025-07-31,2025-07-31 08:09:00,2025-08-03 04:09:00,0,NYC_Hub,Courier_B,failed,Traffic
+100741,1st_mile,2025-07-21,2025-07-21 10:43:00,2025-07-21 16:43:00,1,SEA_Hub,Courier_C,delivered,
+100742,1st_mile,2025-07-18,2025-07-18 08:17:00,2025-07-19 19:17:00,1,CHI_Hub,Courier_C,failed,
+100743,1st_mile,2025-07-16,2025-07-16 11:43:00,2025-07-17 12:43:00,0,LA_Hub,Courier_B,picked_up,
+100744,1st_mile,2025-07-05,2025-07-05 06:26:00,2025-07-05 19:26:00,1,DAL_Hub,Courier_B,in_transit,
+100745,1st_mile,2025-07-17,2025-07-17 07:02:00,2025-07-17 11:02:00,1,NYC_Hub,Courier_C,in_transit,
+100746,1st_mile,2025-07-08,2025-07-08 06:54:00,2025-07-08 23:54:00,0,SEA_Hub,Courier_A,picked_up,Weather
+100747,1st_mile,2025-07-17,2025-07-17 08:29:00,2025-07-17 18:29:00,0,CHI_Hub,Courier_B,delivered,Customer not available
+100748,1st_mile,2025-07-11,2025-07-11 12:04:00,2025-07-13 00:04:00,1,DAL_Hub,Courier_B,delivered,
+100749,1st_mile,2025-07-17,2025-07-17 12:16:00,2025-07-18 11:16:00,0,NYC_Hub,Courier_B,in_transit,Address issue
+100750,1st_mile,2025-07-26,2025-07-26 07:41:00,2025-07-28 22:41:00,1,LA_Hub,Courier_C,failed,
+100751,1st_mile,2025-07-07,2025-07-07 09:45:00,2025-07-08 19:45:00,1,NYC_Hub,Courier_A,picked_up,
+100752,1st_mile,2025-07-29,2025-07-29 06:57:00,2025-07-31 22:57:00,1,NYC_Hub,Courier_A,failed,
+100753,1st_mile,2025-07-10,2025-07-10 11:21:00,2025-07-12 14:21:00,1,SEA_Hub,Courier_C,failed,
+100754,1st_mile,2025-07-28,2025-07-28 09:54:00,2025-07-28 18:54:00,1,NYC_Hub,Courier_B,failed,
+100755,1st_mile,2025-08-06,2025-08-06 10:59:00,2025-08-08 08:59:00,0,CHI_Hub,Courier_B,picked_up,
+100756,1st_mile,2025-07-24,2025-07-24 10:54:00,2025-07-26 06:54:00,1,DAL_Hub,Courier_B,in_transit,
+100757,1st_mile,2025-08-05,2025-08-05 06:24:00,2025-08-06 07:24:00,0,DAL_Hub,Courier_A,delivered,Traffic
+100758,1st_mile,2025-07-06,2025-07-06 11:28:00,2025-07-07 12:28:00,1,NYC_Hub,Courier_A,picked_up,
+100759,1st_mile,2025-08-01,2025-08-01 09:04:00,2025-08-04 07:04:00,0,DAL_Hub,Courier_C,failed,
+100760,1st_mile,2025-07-03,2025-07-03 08:03:00,2025-07-05 04:03:00,1,DAL_Hub,Courier_A,in_transit,
+100761,1st_mile,2025-08-04,2025-08-04 07:47:00,2025-08-05 13:47:00,1,NYC_Hub,Courier_C,in_transit,
+100762,1st_mile,2025-07-02,2025-07-02 09:58:00,2025-07-02 15:58:00,1,LA_Hub,Courier_A,in_transit,
+100763,1st_mile,2025-07-20,2025-07-20 12:50:00,2025-07-21 01:50:00,0,SEA_Hub,Courier_A,picked_up,
+100764,1st_mile,2025-07-08,2025-07-08 09:38:00,2025-07-09 14:38:00,1,LA_Hub,Courier_B,delivered,
+100765,1st_mile,2025-07-21,2025-07-21 06:43:00,2025-07-24 04:43:00,1,CHI_Hub,Courier_A,picked_up,
+100766,1st_mile,2025-07-22,2025-07-22 06:07:00,2025-07-23 18:07:00,1,DAL_Hub,Courier_A,delivered,
+100767,1st_mile,2025-07-29,2025-07-29 07:59:00,2025-07-29 13:59:00,1,NYC_Hub,Courier_C,failed,
+100768,1st_mile,2025-07-02,2025-07-02 09:05:00,2025-07-02 10:05:00,1,LA_Hub,Courier_A,delivered,
+100769,1st_mile,2025-07-31,2025-07-31 11:08:00,2025-08-01 14:08:00,1,CHI_Hub,Courier_C,failed,
+100770,1st_mile,2025-07-16,2025-07-16 07:39:00,2025-07-16 12:39:00,1,DAL_Hub,Courier_C,picked_up,
+100771,1st_mile,2025-07-23,2025-07-23 09:00:00,2025-07-26 09:00:00,1,LA_Hub,Courier_A,picked_up,
+100772,1st_mile,2025-08-04,2025-08-04 10:14:00,2025-08-06 22:14:00,1,CHI_Hub,Courier_A,in_transit,
+100773,1st_mile,2025-07-10,2025-07-10 11:54:00,2025-07-13 00:54:00,0,LA_Hub,Courier_A,picked_up,
+100774,1st_mile,2025-07-24,2025-07-24 08:13:00,2025-07-26 16:13:00,0,CHI_Hub,Courier_C,failed,
+100775,1st_mile,2025-07-07,2025-07-07 11:03:00,2025-07-10 08:03:00,1,LA_Hub,Courier_A,failed,
+100776,1st_mile,2025-07-05,2025-07-05 07:46:00,2025-07-07 16:46:00,0,DAL_Hub,Courier_A,delivered,Weather
+100777,1st_mile,2025-07-08,2025-07-08 08:14:00,2025-07-08 21:14:00,1,DAL_Hub,Courier_A,failed,
+100778,1st_mile,2025-07-05,2025-07-05 09:37:00,2025-07-08 00:37:00,1,DAL_Hub,Courier_A,in_transit,
+100779,1st_mile,2025-07-12,2025-07-12 09:23:00,2025-07-13 03:23:00,0,LA_Hub,Courier_C,delivered,Customer not available
+100780,1st_mile,2025-07-13,2025-07-13 08:08:00,2025-07-13 13:08:00,1,CHI_Hub,Courier_A,picked_up,
+100781,1st_mile,2025-07-30,2025-07-30 09:10:00,2025-08-01 05:10:00,1,CHI_Hub,Courier_C,in_transit,
+100782,1st_mile,2025-08-06,2025-08-06 10:54:00,2025-08-07 16:54:00,1,DAL_Hub,Courier_C,failed,
+100783,1st_mile,2025-07-31,2025-07-31 12:29:00,2025-08-02 00:29:00,1,DAL_Hub,Courier_C,in_transit,
+100784,1st_mile,2025-07-21,2025-07-21 09:37:00,2025-07-22 14:37:00,1,SEA_Hub,Courier_A,failed,
+100785,1st_mile,2025-07-03,2025-07-03 09:46:00,2025-07-06 02:46:00,1,DAL_Hub,Courier_C,failed,
+100786,1st_mile,2025-07-07,2025-07-07 09:31:00,2025-07-08 16:31:00,1,SEA_Hub,Courier_A,failed,
+100787,1st_mile,2025-07-09,2025-07-09 08:18:00,2025-07-10 15:18:00,1,NYC_Hub,Courier_B,delivered,
+100788,1st_mile,2025-07-30,2025-07-30 12:36:00,2025-07-30 16:36:00,0,DAL_Hub,Courier_A,failed,Weather
+100789,1st_mile,2025-07-24,2025-07-24 11:29:00,2025-07-24 12:29:00,1,DAL_Hub,Courier_C,delivered,
+100790,1st_mile,2025-07-19,2025-07-19 09:48:00,2025-07-20 20:48:00,1,NYC_Hub,Courier_C,delivered,
+100791,1st_mile,2025-08-02,2025-08-02 11:23:00,2025-08-02 18:23:00,1,DAL_Hub,Courier_B,failed,
+100792,1st_mile,2025-07-24,2025-07-24 08:11:00,2025-07-27 08:11:00,1,SEA_Hub,Courier_C,in_transit,
+100793,1st_mile,2025-07-22,2025-07-22 07:34:00,2025-07-22 22:34:00,0,SEA_Hub,Courier_C,in_transit,Weather
+100794,1st_mile,2025-07-21,2025-07-21 08:57:00,2025-07-22 19:57:00,0,CHI_Hub,Courier_A,picked_up,Customer not available
+100795,1st_mile,2025-07-23,2025-07-23 09:31:00,2025-07-26 02:31:00,1,DAL_Hub,Courier_C,delivered,
+100796,1st_mile,2025-07-24,2025-07-24 12:43:00,2025-07-24 21:43:00,1,DAL_Hub,Courier_A,picked_up,
+100797,1st_mile,2025-07-12,2025-07-12 08:04:00,2025-07-12 22:04:00,1,CHI_Hub,Courier_A,in_transit,
+100798,1st_mile,2025-07-10,2025-07-10 12:13:00,2025-07-13 07:13:00,1,CHI_Hub,Courier_B,in_transit,
+100799,1st_mile,2025-07-23,2025-07-23 09:28:00,2025-07-23 12:28:00,0,LA_Hub,Courier_A,picked_up,Weather
+100800,1st_mile,2025-08-03,2025-08-03 11:21:00,2025-08-05 16:21:00,0,CHI_Hub,Courier_B,failed,Traffic
+100801,1st_mile,2025-07-20,2025-07-20 10:08:00,2025-07-22 02:08:00,1,CHI_Hub,Courier_A,failed,
+100802,1st_mile,2025-07-19,2025-07-19 12:54:00,2025-07-19 19:54:00,1,CHI_Hub,Courier_B,failed,
+100803,1st_mile,2025-07-11,2025-07-11 11:34:00,2025-07-13 00:34:00,1,LA_Hub,Courier_C,in_transit,
+100804,1st_mile,2025-07-16,2025-07-16 06:02:00,2025-07-17 23:02:00,1,DAL_Hub,Courier_B,delivered,
+100805,1st_mile,2025-07-14,2025-07-14 10:45:00,2025-07-14 15:45:00,0,CHI_Hub,Courier_A,delivered,Traffic
+100806,1st_mile,2025-08-04,2025-08-04 07:34:00,2025-08-05 22:34:00,1,NYC_Hub,Courier_B,failed,
+100807,1st_mile,2025-07-30,2025-07-30 08:09:00,2025-07-30 09:09:00,0,CHI_Hub,Courier_B,delivered,Address issue
+100808,1st_mile,2025-07-10,2025-07-10 12:36:00,2025-07-12 21:36:00,0,NYC_Hub,Courier_C,failed,
+100809,1st_mile,2025-07-09,2025-07-09 11:35:00,2025-07-10 02:35:00,0,NYC_Hub,Courier_B,in_transit,Traffic
+100810,1st_mile,2025-07-23,2025-07-23 06:20:00,2025-07-23 14:20:00,1,SEA_Hub,Courier_C,in_transit,
+100811,1st_mile,2025-07-13,2025-07-13 06:05:00,2025-07-16 03:05:00,0,NYC_Hub,Courier_C,failed,Weather
+100812,1st_mile,2025-08-01,2025-08-01 08:38:00,2025-08-04 02:38:00,1,CHI_Hub,Courier_B,in_transit,
+100813,1st_mile,2025-07-24,2025-07-24 09:23:00,2025-07-24 11:23:00,0,CHI_Hub,Courier_B,delivered,Traffic
+100814,1st_mile,2025-08-05,2025-08-05 06:13:00,2025-08-07 15:13:00,0,DAL_Hub,Courier_B,in_transit,Traffic
+100815,1st_mile,2025-07-27,2025-07-27 07:53:00,2025-07-27 19:53:00,1,LA_Hub,Courier_B,failed,
+100816,1st_mile,2025-07-05,2025-07-05 10:48:00,2025-07-07 11:48:00,1,NYC_Hub,Courier_B,delivered,
+100817,1st_mile,2025-07-12,2025-07-12 10:29:00,2025-07-13 04:29:00,1,LA_Hub,Courier_B,delivered,
+100818,1st_mile,2025-07-03,2025-07-03 12:52:00,2025-07-05 03:52:00,0,DAL_Hub,Courier_C,failed,Weather
+100819,1st_mile,2025-07-02,2025-07-02 12:00:00,2025-07-03 08:00:00,0,CHI_Hub,Courier_C,failed,
+100820,1st_mile,2025-07-19,2025-07-19 09:11:00,2025-07-22 00:11:00,1,NYC_Hub,Courier_A,delivered,
+100821,1st_mile,2025-07-05,2025-07-05 10:47:00,2025-07-07 09:47:00,0,SEA_Hub,Courier_B,delivered,Traffic
+100822,1st_mile,2025-07-08,2025-07-08 08:32:00,2025-07-08 11:32:00,0,LA_Hub,Courier_C,picked_up,Weather
+100823,1st_mile,2025-07-21,2025-07-21 09:56:00,2025-07-22 03:56:00,0,LA_Hub,Courier_A,delivered,Customer not available
+100824,1st_mile,2025-07-27,2025-07-27 11:58:00,2025-07-29 09:58:00,1,CHI_Hub,Courier_B,picked_up,
+100825,1st_mile,2025-07-12,2025-07-12 12:06:00,2025-07-13 10:06:00,0,CHI_Hub,Courier_C,delivered,Customer not available
+100826,1st_mile,2025-07-24,2025-07-24 06:34:00,2025-07-26 04:34:00,1,NYC_Hub,Courier_A,delivered,
+100827,1st_mile,2025-08-01,2025-08-01 09:21:00,2025-08-02 06:21:00,1,LA_Hub,Courier_A,in_transit,
+100828,1st_mile,2025-08-05,2025-08-05 10:44:00,2025-08-08 06:44:00,1,DAL_Hub,Courier_B,picked_up,
+100829,1st_mile,2025-07-09,2025-07-09 06:30:00,2025-07-11 03:30:00,0,CHI_Hub,Courier_A,failed,Address issue
+100830,1st_mile,2025-08-03,2025-08-03 12:21:00,2025-08-04 11:21:00,0,NYC_Hub,Courier_C,picked_up,Weather
+100831,1st_mile,2025-07-09,2025-07-09 12:44:00,2025-07-10 07:44:00,1,CHI_Hub,Courier_A,in_transit,
+100832,1st_mile,2025-07-06,2025-07-06 09:44:00,2025-07-07 00:44:00,1,NYC_Hub,Courier_B,failed,
+100833,1st_mile,2025-07-13,2025-07-13 06:02:00,2025-07-16 00:02:00,1,DAL_Hub,Courier_A,delivered,
+100834,1st_mile,2025-07-05,2025-07-05 08:42:00,2025-07-05 10:42:00,1,NYC_Hub,Courier_C,in_transit,
+100835,1st_mile,2025-07-12,2025-07-12 11:22:00,2025-07-12 15:22:00,1,LA_Hub,Courier_C,delivered,
+100836,1st_mile,2025-07-23,2025-07-23 07:54:00,2025-07-26 00:54:00,1,SEA_Hub,Courier_C,picked_up,
+100837,1st_mile,2025-07-01,2025-07-01 10:13:00,2025-07-02 11:13:00,0,LA_Hub,Courier_C,picked_up,
+100838,1st_mile,2025-07-14,2025-07-14 10:54:00,2025-07-16 23:54:00,0,SEA_Hub,Courier_A,failed,
+100839,1st_mile,2025-07-12,2025-07-12 12:22:00,2025-07-14 13:22:00,0,LA_Hub,Courier_C,in_transit,Traffic
+100840,1st_mile,2025-07-08,2025-07-08 12:20:00,2025-07-09 04:20:00,0,NYC_Hub,Courier_C,in_transit,Traffic
+100841,1st_mile,2025-07-24,2025-07-24 11:18:00,2025-07-27 11:18:00,1,NYC_Hub,Courier_B,failed,
+100842,1st_mile,2025-07-25,2025-07-25 08:29:00,2025-07-27 00:29:00,0,LA_Hub,Courier_C,failed,Customer not available
+100843,1st_mile,2025-07-28,2025-07-28 07:54:00,2025-07-28 16:54:00,0,CHI_Hub,Courier_A,picked_up,Traffic
+100844,1st_mile,2025-07-07,2025-07-07 09:28:00,2025-07-10 04:28:00,1,NYC_Hub,Courier_A,failed,
+100845,1st_mile,2025-07-07,2025-07-07 11:59:00,2025-07-08 09:59:00,1,CHI_Hub,Courier_A,delivered,
+100846,1st_mile,2025-07-26,2025-07-26 06:14:00,2025-07-28 13:14:00,0,CHI_Hub,Courier_C,delivered,Traffic
+100847,1st_mile,2025-07-23,2025-07-23 09:42:00,2025-07-25 13:42:00,0,SEA_Hub,Courier_B,in_transit,Traffic
+100848,1st_mile,2025-07-07,2025-07-07 06:16:00,2025-07-09 21:16:00,0,LA_Hub,Courier_C,in_transit,
+100849,1st_mile,2025-07-07,2025-07-07 11:03:00,2025-07-07 20:03:00,0,NYC_Hub,Courier_A,failed,Address issue
+100850,1st_mile,2025-07-21,2025-07-21 07:19:00,2025-07-21 20:19:00,1,SEA_Hub,Courier_B,failed,
+100851,1st_mile,2025-07-19,2025-07-19 11:31:00,2025-07-22 02:31:00,0,SEA_Hub,Courier_B,picked_up,
+100852,1st_mile,2025-07-28,2025-07-28 06:24:00,2025-07-30 16:24:00,0,DAL_Hub,Courier_B,failed,
+100853,1st_mile,2025-07-03,2025-07-03 07:35:00,2025-07-04 22:35:00,1,DAL_Hub,Courier_B,in_transit,
+100854,1st_mile,2025-07-25,2025-07-25 09:48:00,2025-07-26 00:48:00,0,SEA_Hub,Courier_C,failed,Traffic
+100855,1st_mile,2025-08-05,2025-08-05 12:10:00,2025-08-08 05:10:00,1,DAL_Hub,Courier_B,failed,
+100856,1st_mile,2025-07-23,2025-07-23 12:18:00,2025-07-25 06:18:00,1,NYC_Hub,Courier_C,picked_up,
+100857,1st_mile,2025-07-24,2025-07-24 08:51:00,2025-07-24 12:51:00,0,DAL_Hub,Courier_A,failed,Customer not available
+100858,1st_mile,2025-07-23,2025-07-23 09:22:00,2025-07-23 17:22:00,1,LA_Hub,Courier_A,delivered,
+100859,1st_mile,2025-07-05,2025-07-05 12:19:00,2025-07-06 03:19:00,0,LA_Hub,Courier_A,delivered,
+100860,1st_mile,2025-07-30,2025-07-30 11:55:00,2025-08-01 18:55:00,0,CHI_Hub,Courier_A,failed,Address issue
+100861,1st_mile,2025-07-02,2025-07-02 08:24:00,2025-07-04 10:24:00,0,SEA_Hub,Courier_A,failed,
+100862,1st_mile,2025-07-14,2025-07-14 08:31:00,2025-07-17 01:31:00,0,LA_Hub,Courier_C,delivered,Customer not available
+100863,1st_mile,2025-07-28,2025-07-28 07:31:00,2025-07-28 17:31:00,1,CHI_Hub,Courier_B,picked_up,
+100864,1st_mile,2025-08-06,2025-08-06 09:51:00,2025-08-07 14:51:00,1,SEA_Hub,Courier_A,delivered,
+100865,1st_mile,2025-07-05,2025-07-05 10:51:00,2025-07-08 06:51:00,0,DAL_Hub,Courier_A,delivered,
+100866,1st_mile,2025-07-20,2025-07-20 10:51:00,2025-07-22 01:51:00,0,SEA_Hub,Courier_B,in_transit,Traffic
+100867,1st_mile,2025-07-26,2025-07-26 08:39:00,2025-07-29 02:39:00,0,SEA_Hub,Courier_A,picked_up,Address issue
+100868,1st_mile,2025-07-12,2025-07-12 10:31:00,2025-07-13 14:31:00,0,CHI_Hub,Courier_C,failed,Address issue
+100869,1st_mile,2025-07-04,2025-07-04 10:12:00,2025-07-06 09:12:00,0,LA_Hub,Courier_A,in_transit,Customer not available
+100870,1st_mile,2025-07-28,2025-07-28 09:20:00,2025-07-28 18:20:00,1,DAL_Hub,Courier_B,delivered,
+100871,1st_mile,2025-07-17,2025-07-17 11:38:00,2025-07-18 18:38:00,0,LA_Hub,Courier_A,in_transit,Weather
+100872,1st_mile,2025-07-02,2025-07-02 07:51:00,2025-07-03 23:51:00,0,DAL_Hub,Courier_C,failed,Traffic
+100873,1st_mile,2025-07-03,2025-07-03 07:10:00,2025-07-04 18:10:00,1,NYC_Hub,Courier_B,delivered,
+100874,1st_mile,2025-07-03,2025-07-03 11:31:00,2025-07-03 14:31:00,1,NYC_Hub,Courier_B,delivered,
+100875,1st_mile,2025-07-27,2025-07-27 08:42:00,2025-07-27 20:42:00,0,LA_Hub,Courier_A,picked_up,Address issue
+100876,1st_mile,2025-08-02,2025-08-02 06:33:00,2025-08-05 02:33:00,0,DAL_Hub,Courier_A,in_transit,Address issue
+100877,1st_mile,2025-07-08,2025-07-08 12:51:00,2025-07-10 05:51:00,0,SEA_Hub,Courier_C,failed,Weather
+100878,1st_mile,2025-07-28,2025-07-28 07:09:00,2025-07-28 21:09:00,1,LA_Hub,Courier_B,failed,
+100879,1st_mile,2025-07-17,2025-07-17 12:37:00,2025-07-17 20:37:00,0,SEA_Hub,Courier_B,picked_up,Customer not available
+100880,1st_mile,2025-08-04,2025-08-04 09:30:00,2025-08-05 17:30:00,0,LA_Hub,Courier_B,failed,Customer not available
+100881,1st_mile,2025-07-20,2025-07-20 06:41:00,2025-07-20 11:41:00,1,LA_Hub,Courier_B,failed,
+100882,1st_mile,2025-07-24,2025-07-24 12:43:00,2025-07-25 04:43:00,1,DAL_Hub,Courier_B,picked_up,
+100883,1st_mile,2025-07-17,2025-07-17 08:05:00,2025-07-18 15:05:00,0,LA_Hub,Courier_A,failed,Customer not available
+100884,1st_mile,2025-07-27,2025-07-27 12:02:00,2025-07-29 00:02:00,1,DAL_Hub,Courier_B,failed,
+100885,1st_mile,2025-07-28,2025-07-28 12:06:00,2025-07-29 09:06:00,0,SEA_Hub,Courier_A,delivered,Traffic
+100886,1st_mile,2025-08-05,2025-08-05 11:20:00,2025-08-07 22:20:00,1,NYC_Hub,Courier_C,in_transit,
+100887,1st_mile,2025-07-09,2025-07-09 06:25:00,2025-07-10 08:25:00,0,CHI_Hub,Courier_C,picked_up,
+100888,1st_mile,2025-07-11,2025-07-11 07:33:00,2025-07-12 00:33:00,0,CHI_Hub,Courier_B,failed,Weather
+100889,1st_mile,2025-07-17,2025-07-17 07:43:00,2025-07-19 01:43:00,0,LA_Hub,Courier_A,failed,Customer not available
+100890,1st_mile,2025-07-12,2025-07-12 09:56:00,2025-07-14 10:56:00,1,NYC_Hub,Courier_A,in_transit,
+100891,1st_mile,2025-07-30,2025-07-30 07:16:00,2025-07-31 05:16:00,1,DAL_Hub,Courier_C,failed,
+100892,1st_mile,2025-07-10,2025-07-10 06:23:00,2025-07-11 04:23:00,1,NYC_Hub,Courier_C,failed,
+100893,1st_mile,2025-08-01,2025-08-01 06:14:00,2025-08-02 09:14:00,1,CHI_Hub,Courier_B,failed,
+100894,1st_mile,2025-07-09,2025-07-09 09:54:00,2025-07-10 12:54:00,1,CHI_Hub,Courier_C,in_transit,
+100895,1st_mile,2025-07-12,2025-07-12 09:50:00,2025-07-13 04:50:00,1,CHI_Hub,Courier_B,in_transit,
+100896,1st_mile,2025-07-16,2025-07-16 08:37:00,2025-07-18 19:37:00,1,NYC_Hub,Courier_B,in_transit,
+100897,1st_mile,2025-07-26,2025-07-26 11:13:00,2025-07-28 13:13:00,0,SEA_Hub,Courier_B,picked_up,
+100898,1st_mile,2025-08-05,2025-08-05 06:03:00,2025-08-07 01:03:00,1,DAL_Hub,Courier_B,picked_up,
+100899,1st_mile,2025-07-17,2025-07-17 10:39:00,2025-07-19 11:39:00,0,DAL_Hub,Courier_C,delivered,Weather
+100900,1st_mile,2025-08-05,2025-08-05 06:37:00,2025-08-06 05:37:00,0,LA_Hub,Courier_C,failed,Customer not available
+100901,1st_mile,2025-07-30,2025-07-30 07:05:00,2025-08-01 00:05:00,0,LA_Hub,Courier_B,picked_up,Customer not available
+100902,1st_mile,2025-07-03,2025-07-03 07:31:00,2025-07-04 19:31:00,0,DAL_Hub,Courier_B,delivered,Address issue
+100903,1st_mile,2025-07-17,2025-07-17 10:20:00,2025-07-19 18:20:00,1,CHI_Hub,Courier_C,failed,
+100904,1st_mile,2025-08-05,2025-08-05 12:59:00,2025-08-07 21:59:00,1,LA_Hub,Courier_A,picked_up,
+100905,1st_mile,2025-07-12,2025-07-12 06:30:00,2025-07-13 16:30:00,1,DAL_Hub,Courier_B,picked_up,
+100906,1st_mile,2025-07-03,2025-07-03 09:22:00,2025-07-06 09:22:00,0,DAL_Hub,Courier_B,picked_up,Weather
+100907,1st_mile,2025-07-08,2025-07-08 08:05:00,2025-07-09 11:05:00,0,LA_Hub,Courier_A,delivered,Address issue
+100908,1st_mile,2025-07-14,2025-07-14 10:00:00,2025-07-17 06:00:00,1,DAL_Hub,Courier_A,in_transit,
+100909,1st_mile,2025-07-07,2025-07-07 08:01:00,2025-07-08 21:01:00,1,DAL_Hub,Courier_B,picked_up,
+100910,1st_mile,2025-07-10,2025-07-10 06:05:00,2025-07-12 17:05:00,0,DAL_Hub,Courier_C,delivered,Address issue
+100911,1st_mile,2025-07-01,2025-07-01 08:02:00,2025-07-03 18:02:00,0,SEA_Hub,Courier_A,in_transit,
+100912,1st_mile,2025-07-19,2025-07-19 08:51:00,2025-07-19 16:51:00,1,SEA_Hub,Courier_C,failed,
+100913,1st_mile,2025-07-26,2025-07-26 08:11:00,2025-07-27 15:11:00,0,NYC_Hub,Courier_A,in_transit,Weather
+100914,1st_mile,2025-07-25,2025-07-25 12:25:00,2025-07-27 01:25:00,1,NYC_Hub,Courier_B,failed,
+100915,1st_mile,2025-07-20,2025-07-20 11:38:00,2025-07-21 04:38:00,0,NYC_Hub,Courier_B,in_transit,Traffic
+100916,1st_mile,2025-07-29,2025-07-29 09:30:00,2025-07-30 20:30:00,0,NYC_Hub,Courier_B,delivered,Address issue
+100917,1st_mile,2025-07-12,2025-07-12 09:40:00,2025-07-14 16:40:00,1,NYC_Hub,Courier_C,delivered,
+100918,1st_mile,2025-07-15,2025-07-15 11:43:00,2025-07-16 07:43:00,0,SEA_Hub,Courier_C,picked_up,Customer not available
+100919,1st_mile,2025-07-30,2025-07-30 09:05:00,2025-08-01 23:05:00,0,LA_Hub,Courier_A,delivered,Weather
+100920,1st_mile,2025-08-03,2025-08-03 09:18:00,2025-08-03 16:18:00,1,NYC_Hub,Courier_C,picked_up,
+100921,1st_mile,2025-07-27,2025-07-27 06:29:00,2025-07-28 15:29:00,0,CHI_Hub,Courier_C,picked_up,Address issue
+100922,1st_mile,2025-07-02,2025-07-02 06:47:00,2025-07-04 18:47:00,1,LA_Hub,Courier_B,picked_up,
+100923,1st_mile,2025-07-27,2025-07-27 11:19:00,2025-07-29 04:19:00,0,DAL_Hub,Courier_C,delivered,Customer not available
+100924,1st_mile,2025-07-12,2025-07-12 07:11:00,2025-07-12 18:11:00,0,NYC_Hub,Courier_B,picked_up,
+100925,1st_mile,2025-07-26,2025-07-26 06:00:00,2025-07-27 04:00:00,0,DAL_Hub,Courier_C,failed,Address issue
+100926,1st_mile,2025-08-01,2025-08-01 08:39:00,2025-08-03 07:39:00,0,CHI_Hub,Courier_A,in_transit,Weather
+100927,1st_mile,2025-07-01,2025-07-01 07:07:00,2025-07-01 10:07:00,1,NYC_Hub,Courier_A,failed,
+100928,1st_mile,2025-07-16,2025-07-16 09:53:00,2025-07-19 06:53:00,1,NYC_Hub,Courier_B,failed,
+100929,1st_mile,2025-07-31,2025-07-31 09:01:00,2025-08-01 00:01:00,1,LA_Hub,Courier_C,failed,
+100930,1st_mile,2025-07-31,2025-07-31 06:55:00,2025-08-02 16:55:00,1,LA_Hub,Courier_B,failed,
+100931,1st_mile,2025-07-22,2025-07-22 06:06:00,2025-07-24 14:06:00,0,DAL_Hub,Courier_C,delivered,
+100932,1st_mile,2025-08-01,2025-08-01 09:31:00,2025-08-04 03:31:00,0,LA_Hub,Courier_C,picked_up,Address issue
+100933,1st_mile,2025-07-02,2025-07-02 09:36:00,2025-07-04 02:36:00,1,CHI_Hub,Courier_C,failed,
+100934,1st_mile,2025-07-08,2025-07-08 09:39:00,2025-07-10 06:39:00,0,DAL_Hub,Courier_A,in_transit,Customer not available
+100935,1st_mile,2025-07-13,2025-07-13 09:22:00,2025-07-15 18:22:00,1,SEA_Hub,Courier_A,delivered,
+100936,1st_mile,2025-07-09,2025-07-09 08:46:00,2025-07-11 10:46:00,0,CHI_Hub,Courier_B,in_transit,Address issue
+100937,1st_mile,2025-07-14,2025-07-14 08:44:00,2025-07-14 20:44:00,0,LA_Hub,Courier_A,in_transit,Weather
+100938,1st_mile,2025-08-01,2025-08-01 06:50:00,2025-08-03 12:50:00,0,CHI_Hub,Courier_A,in_transit,Address issue
+100939,1st_mile,2025-07-04,2025-07-04 06:22:00,2025-07-05 16:22:00,0,LA_Hub,Courier_A,picked_up,
+100940,1st_mile,2025-07-22,2025-07-22 09:07:00,2025-07-23 15:07:00,1,SEA_Hub,Courier_A,failed,
+100941,1st_mile,2025-07-22,2025-07-22 12:22:00,2025-07-22 18:22:00,0,LA_Hub,Courier_C,picked_up,
+100942,1st_mile,2025-07-29,2025-07-29 12:29:00,2025-07-30 03:29:00,1,SEA_Hub,Courier_C,picked_up,
+100943,1st_mile,2025-08-02,2025-08-02 06:10:00,2025-08-02 22:10:00,1,CHI_Hub,Courier_A,delivered,
+100944,1st_mile,2025-08-02,2025-08-02 09:46:00,2025-08-02 22:46:00,1,CHI_Hub,Courier_B,in_transit,
+100945,1st_mile,2025-07-13,2025-07-13 09:26:00,2025-07-13 10:26:00,1,DAL_Hub,Courier_B,delivered,
+100946,1st_mile,2025-07-06,2025-07-06 08:23:00,2025-07-08 14:23:00,0,LA_Hub,Courier_A,failed,Weather
+100947,1st_mile,2025-07-09,2025-07-09 12:27:00,2025-07-11 17:27:00,0,DAL_Hub,Courier_C,delivered,
+100948,1st_mile,2025-07-29,2025-07-29 07:49:00,2025-07-29 09:49:00,1,NYC_Hub,Courier_B,delivered,
+100949,1st_mile,2025-07-11,2025-07-11 09:03:00,2025-07-13 12:03:00,1,LA_Hub,Courier_C,picked_up,
+100950,1st_mile,2025-07-27,2025-07-27 09:56:00,2025-07-30 08:56:00,0,CHI_Hub,Courier_B,picked_up,Customer not available
+100951,1st_mile,2025-08-03,2025-08-03 10:58:00,2025-08-04 05:58:00,0,DAL_Hub,Courier_C,in_transit,Address issue
+100952,1st_mile,2025-07-29,2025-07-29 11:22:00,2025-07-31 15:22:00,1,CHI_Hub,Courier_A,picked_up,
+100953,1st_mile,2025-07-25,2025-07-25 11:46:00,2025-07-26 04:46:00,0,LA_Hub,Courier_A,delivered,Address issue
+100954,1st_mile,2025-07-22,2025-07-22 12:40:00,2025-07-23 09:40:00,1,NYC_Hub,Courier_C,delivered,
+100955,1st_mile,2025-07-20,2025-07-20 11:27:00,2025-07-23 04:27:00,1,NYC_Hub,Courier_B,delivered,
+100956,1st_mile,2025-07-08,2025-07-08 06:48:00,2025-07-08 22:48:00,0,CHI_Hub,Courier_C,picked_up,Traffic
+100957,1st_mile,2025-07-22,2025-07-22 07:51:00,2025-07-25 04:51:00,1,CHI_Hub,Courier_B,delivered,
+100958,1st_mile,2025-07-25,2025-07-25 10:47:00,2025-07-26 18:47:00,1,CHI_Hub,Courier_C,in_transit,
+100959,1st_mile,2025-07-30,2025-07-30 06:09:00,2025-08-01 13:09:00,0,NYC_Hub,Courier_A,picked_up,Traffic
+100960,1st_mile,2025-07-09,2025-07-09 09:13:00,2025-07-11 19:13:00,1,CHI_Hub,Courier_C,failed,
+100961,1st_mile,2025-07-17,2025-07-17 10:31:00,2025-07-19 17:31:00,0,DAL_Hub,Courier_C,failed,Weather
+100962,1st_mile,2025-07-10,2025-07-10 10:08:00,2025-07-13 01:08:00,0,LA_Hub,Courier_C,picked_up,Weather
+100963,1st_mile,2025-07-30,2025-07-30 09:02:00,2025-07-31 06:02:00,0,NYC_Hub,Courier_C,failed,
+100964,1st_mile,2025-07-08,2025-07-08 08:36:00,2025-07-09 22:36:00,1,SEA_Hub,Courier_A,picked_up,
+100965,1st_mile,2025-07-20,2025-07-20 08:19:00,2025-07-21 22:19:00,0,NYC_Hub,Courier_A,in_transit,Address issue
+100966,1st_mile,2025-07-27,2025-07-27 06:59:00,2025-07-28 22:59:00,0,LA_Hub,Courier_A,failed,
+100967,1st_mile,2025-07-08,2025-07-08 10:22:00,2025-07-08 19:22:00,1,DAL_Hub,Courier_B,delivered,
+100968,1st_mile,2025-07-22,2025-07-22 12:24:00,2025-07-25 01:24:00,1,LA_Hub,Courier_C,failed,
+100969,1st_mile,2025-07-29,2025-07-29 07:55:00,2025-07-31 01:55:00,1,SEA_Hub,Courier_C,failed,
+100970,1st_mile,2025-07-15,2025-07-15 09:21:00,2025-07-18 07:21:00,1,DAL_Hub,Courier_C,delivered,
+100971,1st_mile,2025-07-11,2025-07-11 11:01:00,2025-07-13 03:01:00,1,SEA_Hub,Courier_A,in_transit,
+100972,1st_mile,2025-08-06,2025-08-06 10:12:00,2025-08-08 23:12:00,1,NYC_Hub,Courier_C,in_transit,
+100973,1st_mile,2025-07-18,2025-07-18 12:13:00,2025-07-19 20:13:00,0,NYC_Hub,Courier_C,delivered,Traffic
+100974,1st_mile,2025-07-03,2025-07-03 09:55:00,2025-07-03 12:55:00,0,DAL_Hub,Courier_A,failed,
+100975,1st_mile,2025-08-03,2025-08-03 08:24:00,2025-08-04 17:24:00,1,NYC_Hub,Courier_A,in_transit,
+100976,1st_mile,2025-07-10,2025-07-10 07:16:00,2025-07-10 19:16:00,1,CHI_Hub,Courier_B,in_transit,
+100977,1st_mile,2025-07-21,2025-07-21 07:01:00,2025-07-21 15:01:00,0,DAL_Hub,Courier_A,delivered,Weather
+100978,1st_mile,2025-07-27,2025-07-27 08:16:00,2025-07-29 09:16:00,1,NYC_Hub,Courier_A,in_transit,
+100979,1st_mile,2025-08-01,2025-08-01 10:48:00,2025-08-04 03:48:00,0,NYC_Hub,Courier_B,picked_up,Customer not available
+100980,1st_mile,2025-07-30,2025-07-30 10:26:00,2025-07-30 19:26:00,0,NYC_Hub,Courier_B,in_transit,
+100981,1st_mile,2025-07-18,2025-07-18 10:37:00,2025-07-18 23:37:00,1,SEA_Hub,Courier_C,in_transit,
+100982,1st_mile,2025-08-06,2025-08-06 09:28:00,2025-08-06 20:28:00,1,LA_Hub,Courier_B,in_transit,
+100983,1st_mile,2025-08-04,2025-08-04 09:58:00,2025-08-07 09:58:00,0,NYC_Hub,Courier_A,failed,Address issue
+100984,1st_mile,2025-07-19,2025-07-19 11:10:00,2025-07-19 12:10:00,1,DAL_Hub,Courier_B,delivered,
+100985,1st_mile,2025-07-23,2025-07-23 12:40:00,2025-07-24 16:40:00,0,NYC_Hub,Courier_A,picked_up,Customer not available
+100986,1st_mile,2025-07-06,2025-07-06 09:44:00,2025-07-07 01:44:00,1,SEA_Hub,Courier_B,failed,
+100987,1st_mile,2025-08-02,2025-08-02 12:20:00,2025-08-04 08:20:00,0,DAL_Hub,Courier_B,in_transit,Customer not available
+100988,1st_mile,2025-07-22,2025-07-22 07:29:00,2025-07-24 02:29:00,1,LA_Hub,Courier_C,picked_up,
+100989,1st_mile,2025-07-01,2025-07-01 06:43:00,2025-07-02 05:43:00,0,SEA_Hub,Courier_C,failed,Traffic
+100990,1st_mile,2025-08-04,2025-08-04 06:50:00,2025-08-04 16:50:00,1,DAL_Hub,Courier_C,picked_up,
+100991,1st_mile,2025-07-25,2025-07-25 12:38:00,2025-07-27 10:38:00,0,LA_Hub,Courier_C,picked_up,
+100992,1st_mile,2025-07-30,2025-07-30 08:59:00,2025-07-31 09:59:00,0,NYC_Hub,Courier_A,picked_up,Customer not available
+100993,1st_mile,2025-07-23,2025-07-23 07:05:00,2025-07-24 22:05:00,1,LA_Hub,Courier_B,delivered,
+100994,1st_mile,2025-07-18,2025-07-18 09:57:00,2025-07-19 12:57:00,1,LA_Hub,Courier_C,failed,
+100995,1st_mile,2025-07-18,2025-07-18 10:32:00,2025-07-21 02:32:00,1,SEA_Hub,Courier_A,in_transit,
+100996,1st_mile,2025-07-09,2025-07-09 11:04:00,2025-07-10 04:04:00,0,SEA_Hub,Courier_A,delivered,Weather
+100997,1st_mile,2025-07-02,2025-07-02 11:43:00,2025-07-05 08:43:00,0,SEA_Hub,Courier_B,picked_up,Traffic
+100998,1st_mile,2025-07-04,2025-07-04 12:20:00,2025-07-06 20:20:00,0,CHI_Hub,Courier_A,failed,Traffic
+100999,1st_mile,2025-07-24,2025-07-24 10:48:00,2025-07-24 16:48:00,1,NYC_Hub,Courier_B,failed,
+101000,1st_mile,2025-07-21,2025-07-21 06:25:00,2025-07-22 07:25:00,0,NYC_Hub,Courier_C,picked_up,Weather
